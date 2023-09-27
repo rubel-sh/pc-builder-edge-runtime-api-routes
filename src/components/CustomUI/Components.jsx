@@ -11,12 +11,11 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 const Components = ({ components }) => {
-    console.log(components);
     return (
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>Components</NavigationMenuTrigger>
+                    <NavigationMenuTrigger size={"lg"}>Components</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                             {components.map((component) => (
@@ -31,7 +30,6 @@ const Components = ({ components }) => {
 };
 
 const ListItem = ({ item, className }) => {
-    console.log(item);
     return (
         <li>
             <NavigationMenuLink asChild>
