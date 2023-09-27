@@ -1,10 +1,12 @@
+import { useTheme } from "next-themes";
 import Image from "next/image";
 
 const Logo = ({ dark }) => {
+    const { theme } = useTheme();
     return (
         <Image
             priority
-            src={dark ? "/logos/meta-dark.svg" : "/logos/meta-light.svg"}
+            src={theme === "light" ? "/logos/meta-dark.svg" : "/logos/meta-light.svg"}
             alt="Logo"
             width={280}
             height={50}

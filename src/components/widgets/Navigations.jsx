@@ -1,38 +1,59 @@
-import {
-    NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuIndicator,
-    NavigationMenuItem,
-    NavigationMenuLink,
-    NavigationMenuList,
-    NavigationMenuTrigger,
-    NavigationMenuViewport,
-} from "@/components/ui/navigation-menu";
-
-import Link from "next/link";
+import Container from "../CustomUI/Container";
+import Logo from "../CustomUI/Logo";
+import { DarkModeMenu } from "./DarkModeMenu";
+import { Button } from "../ui/button";
+import Components from "../CustomUI/Components";
 
 const Navigations = () => {
     const components = [
-        "CPU / Processor",
-        "Motherboard",
-        "RAM",
-        "Power Supply Unit",
-        "Storage Device",
-        "Monitor",
-        "Others",
+        {
+            title: "CPU / Processor",
+            link: "/components/cpu-processor",
+        },
+        {
+            title: "Motherboard",
+            link: "/components/motherboard",
+        },
+        {
+            title: "RAM",
+            link: "/components/ram",
+        },
+        {
+            title: "Power Supply Unit",
+            link: "/components/power-supply-unit",
+        },
+        {
+            title: "Storage Device",
+            link: "/components/storage-device",
+        },
+        {
+            title: "Monitor",
+            link: "/components/monitor",
+        },
+        {
+            title: "Others",
+            link: "/components/others",
+        },
     ];
 
     return (
-        <NavigationMenu>
-            <NavigationMenuList>
-                <NavigationMenuItem>
-                    <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-                    <NavigationMenuContent>
-                        <NavigationMenuLink>Link</NavigationMenuLink>
-                    </NavigationMenuContent>
-                </NavigationMenuItem>
-            </NavigationMenuList>
-        </NavigationMenu>
+        <Container>
+            <nav className="flex justify-between items-center">
+                <div className="flex items-center gap-x-4 border-1 border-slate-700">
+                    <Logo />
+                    {/* Navigation Links */}
+                    <div>
+                        <Components components={components} />
+                    </div>
+                </div>
+                <div className="flex items-center gap-x-4">
+                    {/* DARK MODE */}
+                    <DarkModeMenu />
+                    {/* PC BUILDER BUTTON*/}
+                    <Button variant="outline">PC Builder</Button>
+                </div>
+            </nav>
+        </Container>
     );
 };
 
