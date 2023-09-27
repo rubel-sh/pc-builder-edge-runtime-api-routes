@@ -1,0 +1,4261 @@
+[
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c26"
+        },
+        "component_type": "CPU",
+        "component_brand": "Intel",
+        "component_model": "Core i5-9400F",
+        "component_price": 150,
+        "component_discount": 10,
+        "component_image": "https://images-na.ssl-images-amazon.com/images/I/51uU7hqyYEL._AC_SL1000_.jpg",
+        "component_description": "Intel Core i5-9400F Desktop Processor 6 Cores 4.1 GHz Turbo Without Graphics",
+        "component_unique_url": "intel-core-i5-9400f",
+        "component_rating": 4.5,
+        "component_reviews": 100,
+        "component_stock": 10,
+        "component_sales": 50,
+        "component_category": "Processor",
+        "component_subcategory": "Intel",
+        "component_socket": "LGA 1151",
+        "key_features": [
+            {
+                "Model": "Intel Core i5-9400F"
+            },
+            {
+                "Core": "6"
+            },
+            {
+                "Threads": "6"
+            },
+            {
+                "Base Clock": "2.9GHz"
+            },
+            {
+                "Boost Clock": "4.1GHz"
+            },
+            {
+                "Cache": "9MB"
+            },
+            {
+                "TDP": "65W"
+            },
+            {
+                "Integrated Graphics": "No"
+            },
+            {
+                "Memory Support": "DDR4-2666MHz"
+            },
+            {
+                "Socket": "LGA 1151"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Base Frequency": "2.9GHz"
+                    },
+                    {
+                        "Max Turbo Frequency": "4.1GHz"
+                    },
+                    {
+                        "Cache": "9MB"
+                    },
+                    {
+                        "Bus Speed": "8 GT/s DMI3"
+                    },
+                    {
+                        "TDP": "65W"
+                    },
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-2666"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Memory Specifications",
+                "data": [
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-2666"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    },
+                    {
+                        "Max Memory Bandwidth": "41.6 GB/s"
+                    },
+                    {
+                        "ECC Memory Supported": "No"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Options",
+                "data": [
+                    {
+                        "Scalability": "1S Only"
+                    },
+                    {
+                        "PCI Express Revision": "3.0"
+                    },
+                    {
+                        "PCI Express Configurations": "Up to 1x16, 2x8, 1x8+2x4"
+                    },
+                    {
+                        "Max Number of PCI Express Lanes": "16"
+                    }
+                ]
+            },
+            {
+                "title": "Package Specifications",
+                "data": [
+                    {
+                        "Sockets Supported": "FCLGA1151"
+                    },
+                    {
+                        "Max CPU Configuration": "1"
+                    },
+                    {
+                        "Thermal Solution Specification": "PCG 2015C (65W)"
+                    },
+                    {
+                        "TJUNCTION": "100°C"
+                    },
+                    {
+                        "Package Size": "37.5mm x 37.5mm"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Intel Optane Memory Supported": "Yes"
+                    },
+                    {
+                        "Intel Turbo Boost Technology": "2.0"
+                    },
+                    {
+                        "Intel Virtualization Technology (VT-x)": "Yes"
+                    },
+                    {
+                        "Intel Virtualization Technology for Directed I/O (VT-d)": "Yes"
+                    },
+                    {
+                        "Intel VT-x with Extended Page Tables (EPT)": "Yes"
+                    },
+                    {
+                        "Intel 64": "Yes"
+                    },
+                    {
+                        "Instruction Set": "64-bit"
+                    },
+                    {
+                        "Instruction Set Extensions": "Intel SSE4.1, Intel SSE4.2, Intel AVX2"
+                    },
+                    {
+                        "Idle States": "Yes"
+                    },
+                    {
+                        "Enhanced Intel SpeedStep Technology": "Yes"
+                    },
+                    {
+                        "Thermal Monitoring Technologies": "Yes"
+                    },
+                    {
+                        "Intel Identity Protection Technology": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c27"
+        },
+        "component_type": "CPU",
+        "component_brand": "Intel",
+        "component_model": "Core i3-10100F",
+        "component_price": 100,
+        "component_discount": 5,
+        "component_image": "https://images-na.ssl-images-amazon.com/images/I/71vZzJ3vLFL._AC_SL1500_.jpg",
+        "component_description": "Intel Core i3-10100F Desktop Processor 4 Cores up to 4.3 GHz Without Graphics",
+        "component_unique_url": "intel-core-i3-10100f",
+        "component_rating": 4,
+        "component_reviews": 50,
+        "component_stock": 20,
+        "component_sales": 30,
+        "component_category": "Processor",
+        "component_subcategory": "Intel",
+        "component_socket": "LGA 1200",
+        "key_features": [
+            {
+                "Model": "Intel Core i3-10100F"
+            },
+            {
+                "Core": "4"
+            },
+            {
+                "Threads": "8"
+            },
+            {
+                "Base Clock": "3.6GHz"
+            },
+            {
+                "Boost Clock": "4.3GHz"
+            },
+            {
+                "Cache": "6MB"
+            },
+            {
+                "TDP": "65W"
+            },
+            {
+                "Integrated Graphics": "No"
+            },
+            {
+                "Memory Support": "DDR4-2666MHz"
+            },
+            {
+                "Socket": "LGA 1200"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Base Frequency": "3.6GHz"
+                    },
+                    {
+                        "Max Turbo Frequency": "4.3GHz"
+                    },
+                    {
+                        "Cache": "6MB"
+                    },
+                    {
+                        "Bus Speed": "8 GT/s DMI3"
+                    },
+                    {
+                        "TDP": "65W"
+                    },
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-2666"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Memory Specifications",
+                "data": [
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-2666"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    },
+                    {
+                        "Max Memory Bandwidth": "41.6 GB/s"
+                    },
+                    {
+                        "ECC Memory Supported": "No"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Options",
+                "data": [
+                    {
+                        "Scalability": "1S Only"
+                    },
+                    {
+                        "PCI Express Revision": "3.0"
+                    },
+                    {
+                        "PCI Express Configurations": "Up to 1x16, 2x8, 1x8+2x4"
+                    },
+                    {
+                        "Max Number of PCI Express Lanes": "16"
+                    }
+                ]
+            },
+            {
+                "title": "Package Specifications",
+                "data": [
+                    {
+                        "Sockets Supported": "FCLGA1200"
+                    },
+                    {
+                        "Max CPU Configuration": "1"
+                    },
+                    {
+                        "Thermal Solution Specification": "PCG 2015C (65W)"
+                    },
+                    {
+                        "TJUNCTION": "100°C"
+                    },
+                    {
+                        "Package Size": "37.5mm x 37.5mm"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Intel Optane Memory Supported": "Yes"
+                    },
+                    {
+                        "Intel Turbo Boost Technology": "2.0"
+                    },
+                    {
+                        "Intel Virtualization Technology (VT-x)": "Yes"
+                    },
+                    {
+                        "Intel Virtualization Technology for Directed I/O (VT-d)": "Yes"
+                    },
+                    {
+                        "Intel VT-x with Extended Page Tables (EPT)": "Yes"
+                    },
+                    {
+                        "Intel 64": "Yes"
+                    },
+                    {
+                        "Instruction Set": "64-bit"
+                    },
+                    {
+                        "Instruction Set Extensions": "Intel SSE4.1, Intel SSE4.2, Intel AVX2"
+                    },
+                    {
+                        "Idle States": "Yes"
+                    },
+                    {
+                        "Enhanced Intel SpeedStep Technology": "Yes"
+                    },
+                    {
+                        "Thermal Monitoring Technologies": "Yes"
+                    },
+                    {
+                        "Intel Identity Protection Technology": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c28"
+        },
+        "component_type": "CPU",
+        "component_brand": "Intel",
+        "component_model": "Core i7-11700",
+        "component_price": 400,
+        "component_discount": 15,
+        "component_image": "https://images-na.ssl-images-amazon.com/images/I/71z5X5X%2BQ-L._AC_SL1500_.jpg",
+        "component_description": "Intel Core i7-11700 Desktop Processor 8 Cores up to 4.9 GHz LGA1200 (Intel 500 Series & Select 400 Series Chipset) 65W",
+        "component_unique_url": "intel-core-i7-11700",
+        "component_rating": 4.8,
+        "component_reviews": 200,
+        "component_stock": 5,
+        "component_sales": 70,
+        "component_category": "Processor",
+        "component_subcategory": "Intel",
+        "component_socket": "LGA 1200",
+        "key_features": [
+            {
+                "Model": "Intel Core i7-11700"
+            },
+            {
+                "Core": "8"
+            },
+            {
+                "Threads": "16"
+            },
+            {
+                "Base Clock": "2.5GHz"
+            },
+            {
+                "Boost Clock": "4.9GHz"
+            },
+            {
+                "Cache": "16MB"
+            },
+            {
+                "TDP": "65W"
+            },
+            {
+                "Integrated Graphics": "Intel UHD Graphics 750"
+            },
+            {
+                "Memory Support": "DDR4-3200MHz"
+            },
+            {
+                "Socket": "LGA 1200"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Base Frequency": "2.5GHz"
+                    },
+                    {
+                        "Max Turbo Frequency": "4.9GHz"
+                    },
+                    {
+                        "Cache": "16MB"
+                    },
+                    {
+                        "Bus Speed": "8 GT/s DMI3"
+                    },
+                    {
+                        "TDP": "65W"
+                    },
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-3200"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Memory Specifications",
+                "data": [
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-3200"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    },
+                    {
+                        "Max Memory Bandwidth": "50.6 GB/s"
+                    },
+                    {
+                        "ECC Memory Supported": "No"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Options",
+                "data": [
+                    {
+                        "Scalability": "1S Only"
+                    },
+                    {
+                        "PCI Express Revision": "4.0"
+                    },
+                    {
+                        "PCI Express Configurations": "1x16, 2x8, 1x8+2x4"
+                    },
+                    {
+                        "Max Number of PCI Express Lanes": "20"
+                    }
+                ]
+            },
+            {
+                "title": "Package Specifications",
+                "data": [
+                    {
+                        "Sockets Supported": "FCLGA1200"
+                    },
+                    {
+                        "Max CPU Configuration": "1"
+                    },
+                    {
+                        "Thermal Solution Specification": "PCG 2015C (65W)"
+                    },
+                    {
+                        "TJUNCTION": "100°C"
+                    },
+                    {
+                        "Package Size": "37.5mm x 37.5mm"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Intel Optane Memory Supported": "Yes"
+                    },
+                    {
+                        "Intel Turbo Boost Technology": "2.0"
+                    },
+                    {
+                        "Intel Virtualization Technology (VT-x)": "Yes"
+                    },
+                    {
+                        "Intel Virtualization Technology for Directed I/O (VT-d)": "Yes"
+                    },
+                    {
+                        "Intel VT-x with Extended Page Tables (EPT)": "Yes"
+                    },
+                    {
+                        "Intel 64": "Yes"
+                    },
+                    {
+                        "Instruction Set": "64-bit"
+                    },
+                    {
+                        "Instruction Set Extensions": "Intel SSE4.1, Intel SSE4.2, Intel AVX2, Intel AVX-512"
+                    },
+                    {
+                        "Idle States": "Yes"
+                    },
+                    {
+                        "Enhanced Intel SpeedStep Technology": "Yes"
+                    },
+                    {
+                        "Thermal Monitoring Technologies": "Yes"
+                    },
+                    {
+                        "Intel Identity Protection Technology": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c29"
+        },
+        "component_type": "CPU",
+        "component_brand": "Intel",
+        "component_model": "Core i7-12700K",
+        "component_price": 400,
+        "component_discount": 12,
+        "component_image": "https://images.example.com/intel-core-i7-12700k.jpg",
+        "component_description": "Intel Core i7-12700K Alder Lake Desktop Processor 12 Cores 5.0 GHz Turbo",
+        "component_unique_url": "intel-core-i7-12700k",
+        "component_rating": 4.7,
+        "component_reviews": 130,
+        "component_stock": 18,
+        "component_sales": 90,
+        "component_category": "Processor",
+        "component_subcategory": "Intel",
+        "component_socket": "LGA 1700",
+        "key_features": [
+            {
+                "Model": "Intel Core i7-12700K"
+            },
+            {
+                "Cores": "12"
+            },
+            {
+                "Threads": "20"
+            },
+            {
+                "Base Clock": "3.6GHz"
+            },
+            {
+                "Boost Clock": "5.0GHz"
+            },
+            {
+                "Cache": "25MB"
+            },
+            {
+                "TDP": "125W"
+            },
+            {
+                "Integrated Graphics": "Intel UHD Graphics 770"
+            },
+            {
+                "Memory Support": "DDR4-3200MHz"
+            },
+            {
+                "Socket": "LGA 1700"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Base Frequency": "3.6GHz"
+                    },
+                    {
+                        "Max Turbo Frequency": "5.0GHz"
+                    },
+                    {
+                        "Cache": "25MB"
+                    },
+                    {
+                        "Bus Speed": "8 GT/s DMI4"
+                    },
+                    {
+                        "TDP": "125W"
+                    },
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-3200"
+                    },
+                    {
+                        "Max Number of Memory Channels": "4"
+                    }
+                ]
+            },
+            {
+                "title": "Memory Specifications",
+                "data": [
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-3200"
+                    },
+                    {
+                        "Max Number of Memory Channels": "4"
+                    },
+                    {
+                        "Max Memory Bandwidth": "102.4 GB/s"
+                    },
+                    {
+                        "ECC Memory Supported": "No"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Options",
+                "data": [
+                    {
+                        "Scalability": "1S, 2S"
+                    },
+                    {
+                        "PCI Express Revision": "5.0"
+                    },
+                    {
+                        "PCI Express Configurations": "Up to 1x16, 2x8, 1x8+1x4+2x4"
+                    },
+                    {
+                        "Max Number of PCI Express Lanes": "20"
+                    }
+                ]
+            },
+            {
+                "title": "Package Specifications",
+                "data": [
+                    {
+                        "Sockets Supported": "FCLGA1700"
+                    },
+                    {
+                        "Max CPU Configuration": "1"
+                    },
+                    {
+                        "Thermal Solution Specification": "PCG 2021C (125W)"
+                    },
+                    {
+                        "TJUNCTION": "100°C"
+                    },
+                    {
+                        "Package Size": "37.5mm x 37.5mm"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Intel Optane Memory Supported": "Yes"
+                    },
+                    {
+                        "Intel Turbo Boost Technology": "6.0"
+                    },
+                    {
+                        "Intel Virtualization Technology (VT-x)": "Yes"
+                    },
+                    {
+                        "Intel Virtualization Technology for Directed I/O (VT-d)": "Yes"
+                    },
+                    {
+                        "Intel VT-x with Extended Page Tables (EPT)": "Yes"
+                    },
+                    {
+                        "Intel 64": "Yes"
+                    },
+                    {
+                        "Instruction Set": "64-bit"
+                    },
+                    {
+                        "Instruction Set Extensions": "Intel SSE4.1, Intel SSE4.2, Intel AVX-512"
+                    },
+                    {
+                        "Idle States": "Yes"
+                    },
+                    {
+                        "Enhanced Intel SpeedStep Technology": "Yes"
+                    },
+                    {
+                        "Thermal Monitoring Technologies": "Yes"
+                    },
+                    {
+                        "Intel Identity Protection Technology": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c2a"
+        },
+        "component_type": "CPU",
+        "component_brand": "Intel",
+        "component_model": "Core i5-12600K",
+        "component_price": 300,
+        "component_discount": 12,
+        "component_image": "https://images-na.ssl-images-amazon.com/images/I/71z5X5X%2BQ-L._AC_SL1500_.jpg",
+        "component_description": "Intel Core i5-12600K Desktop Processor 10 Cores up to 4.9 GHz LGA1700 (Intel 600 Series Chipset) 125W",
+        "component_unique_url": "intel-core-i5-12600k",
+        "component_rating": 4.9,
+        "component_reviews": 300,
+        "component_stock": 8,
+        "component_sales": 90,
+        "component_category": "Processor",
+        "component_subcategory": "Intel",
+        "component_socket": "LGA 1700",
+        "key_features": [
+            {
+                "Model": "Intel Core i5-12600K"
+            },
+            {
+                "Core": "10"
+            },
+            {
+                "Threads": "16"
+            },
+            {
+                "Base Clock": "3.7GHz"
+            },
+            {
+                "Boost Clock": "4.9GHz"
+            },
+            {
+                "Cache": "16MB"
+            },
+            {
+                "TDP": "125W"
+            },
+            {
+                "Integrated Graphics": "Intel UHD Graphics 770"
+            },
+            {
+                "Memory Support": "DDR5-4800MHz"
+            },
+            {
+                "Socket": "LGA 1700"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Base Frequency": "3.7GHz"
+                    },
+                    {
+                        "Max Turbo Frequency": "4.9GHz"
+                    },
+                    {
+                        "Cache": "16MB"
+                    },
+                    {
+                        "Bus Speed": "8 GT/s DMI3"
+                    },
+                    {
+                        "TDP": "125W"
+                    },
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR5-4800"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Memory Specifications",
+                "data": [
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR5-4800"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    },
+                    {
+                        "Max Memory Bandwidth": "76.8 GB/s"
+                    },
+                    {
+                        "ECC Memory Supported": "No"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Options",
+                "data": [
+                    {
+                        "Scalability": "1S Only"
+                    },
+                    {
+                        "PCI Express Revision": "5.0"
+                    },
+                    {
+                        "PCI Express Configurations": "1x16, 2x8, 1x8+2x4"
+                    },
+                    {
+                        "Max Number of PCI Express Lanes": "20"
+                    }
+                ]
+            },
+            {
+                "title": "Package Specifications",
+                "data": [
+                    {
+                        "Sockets Supported": "FCLGA1700"
+                    },
+                    {
+                        "Max CPU Configuration": "1"
+                    },
+                    {
+                        "Thermal Solution Specification": "PCG 2015C (125W)"
+                    },
+                    {
+                        "TJUNCTION": "100°C"
+                    },
+                    {
+                        "Package Size": "45mm x 37.5mm"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Intel Optane Memory Supported": "Yes"
+                    },
+                    {
+                        "Intel Turbo Boost Technology": "3.0"
+                    },
+                    {
+                        "Intel Virtualization Technology (VT-x)": "Yes"
+                    },
+                    {
+                        "Intel Virtualization Technology for Directed I/O (VT-d)": "Yes"
+                    },
+                    {
+                        "Intel VT-x with Extended Page Tables (EPT)": "Yes"
+                    },
+                    {
+                        "Intel 64": "Yes"
+                    },
+                    {
+                        "Instruction Set": "64-bit"
+                    },
+                    {
+                        "Instruction Set Extensions": "Intel SSE4.1, Intel SSE4.2, Intel AVX2, Intel AVX-512"
+                    },
+                    {
+                        "Idle States": "Yes"
+                    },
+                    {
+                        "Enhanced Intel SpeedStep Technology": "Yes"
+                    },
+                    {
+                        "Thermal Monitoring Technologies": "Yes"
+                    },
+                    {
+                        "Intel Identity Protection Technology": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c2b"
+        },
+        "component_type": "CPU",
+        "component_brand": "AMD",
+        "component_model": "Ryzen 9 5900X",
+        "component_price": 550,
+        "component_discount": 15,
+        "component_image": "https://images-na.ssl-images-amazon.com/images/I/6161a%2BQkQ-L._AC_SL1000_.jpg",
+        "component_description": "AMD Ryzen 9 5900X 12-core, 24-Thread Unlocked Desktop Processor",
+        "component_unique_url": "amd-ryzen-9-5900x",
+        "component_rating": 4.8,
+        "component_reviews": 500,
+        "component_stock": 5,
+        "component_sales": 120,
+        "component_category": "Processor",
+        "component_subcategory": "AMD",
+        "component_socket": "AM4",
+        "key_features": [
+            {
+                "Model": "AMD Ryzen 9 5900X"
+            },
+            {
+                "Core": "12"
+            },
+            {
+                "Threads": "24"
+            },
+            {
+                "Base Clock": "3.7GHz"
+            },
+            {
+                "Boost Clock": "4.8GHz"
+            },
+            {
+                "Cache": "70MB"
+            },
+            {
+                "TDP": "105W"
+            },
+            {
+                "Integrated Graphics": "No"
+            },
+            {
+                "Memory Support": "DDR4-3200MHz"
+            },
+            {
+                "Socket": "AM4"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Base Frequency": "3.7GHz"
+                    },
+                    {
+                        "Max Turbo Frequency": "4.8GHz"
+                    },
+                    {
+                        "Cache": "70MB"
+                    },
+                    {
+                        "Bus Speed": "PCIe 4.0 x20"
+                    },
+                    {
+                        "TDP": "105W"
+                    },
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-3200"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Memory Specifications",
+                "data": [
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-3200"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    },
+                    {
+                        "Max Memory Bandwidth": "51.2 GB/s"
+                    },
+                    {
+                        "ECC Memory Supported": "No"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Options",
+                "data": [
+                    {
+                        "Scalability": "1S Only"
+                    },
+                    {
+                        "PCI Express Revision": "4.0"
+                    },
+                    {
+                        "PCI Express Configurations": "1x16, 2x8, 1x8+2x4"
+                    },
+                    {
+                        "Max Number of PCI Express Lanes": "20"
+                    }
+                ]
+            },
+            {
+                "title": "Package Specifications",
+                "data": [
+                    {
+                        "Sockets Supported": "AM4"
+                    },
+                    {
+                        "Max CPU Configuration": "1"
+                    },
+                    {
+                        "Thermal Solution Specification": "Wraith Prism with RGB LED"
+                    },
+                    {
+                        "TJUNCTION": "90°C"
+                    },
+                    {
+                        "Package Size": "40mm x 40mm"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "AMD StoreMI Technology": "Yes"
+                    },
+                    {
+                        "AMD Ryzen Master Utility": "Yes"
+                    },
+                    {
+                        "AMD Ryzen VR-Ready Premium": "Yes"
+                    },
+                    {
+                        "AMD Ryzen Threadripper Support": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c2c"
+        },
+        "component_type": "CPU",
+        "component_brand": "AMD",
+        "component_model": "Ryzen 7 7700X",
+        "component_price": 380,
+        "component_discount": 12,
+        "component_image": "https://images.example.com/amd-ryzen-7-7700x.jpg",
+        "component_description": "AMD Ryzen 7 7700X Desktop Processor 8 Cores 4.5 GHz Turbo",
+        "component_unique_url": "amd-ryzen-7-7700x",
+        "component_rating": 4.7,
+        "component_reviews": 110,
+        "component_stock": 12,
+        "component_sales": 60,
+        "component_category": "Processor",
+        "component_subcategory": "AMD",
+        "component_socket": "AM4",
+        "key_features": [
+            {
+                "Model": "AMD Ryzen 7 7700X"
+            },
+            {
+                "Cores": "8"
+            },
+            {
+                "Threads": "16"
+            },
+            {
+                "Base Clock": "3.6GHz"
+            },
+            {
+                "Boost Clock": "4.5GHz"
+            },
+            {
+                "Cache": "32MB"
+            },
+            {
+                "TDP": "95W"
+            },
+            {
+                "Integrated Graphics": "No"
+            },
+            {
+                "Memory Support": "DDR4-3200MHz"
+            },
+            {
+                "Socket": "AM4"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Base Frequency": "3.6GHz"
+                    },
+                    {
+                        "Max Turbo Frequency": "4.5GHz"
+                    },
+                    {
+                        "Cache": "32MB"
+                    },
+                    {
+                        "Bus Speed": "N/A"
+                    },
+                    {
+                        "TDP": "95W"
+                    },
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-3200"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Memory Specifications",
+                "data": [
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-3200"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    },
+                    {
+                        "Max Memory Bandwidth": "50.6 GB/s"
+                    },
+                    {
+                        "ECC Memory Supported": "No"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Options",
+                "data": [
+                    {
+                        "Scalability": "1S Only"
+                    },
+                    {
+                        "PCI Express Revision": "4.0"
+                    },
+                    {
+                        "PCI Express Configurations": "N/A"
+                    },
+                    {
+                        "Max Number of PCI Express Lanes": "24"
+                    }
+                ]
+            },
+            {
+                "title": "Package Specifications",
+                "data": [
+                    {
+                        "Sockets Supported": "AM4"
+                    },
+                    {
+                        "Max CPU Configuration": "1"
+                    },
+                    {
+                        "Thermal Solution Specification": "TDP 95W Cooler included"
+                    },
+                    {
+                        "TJUNCTION": "95°C"
+                    },
+                    {
+                        "Package Size": "37.5mm x 37.5mm"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "AMD Precision Boost Technology": "Yes"
+                    },
+                    {
+                        "AMD Precision Boost Overdrive": "Yes"
+                    },
+                    {
+                        "AMD StoreMI Technology": "Yes"
+                    },
+                    {
+                        "AMD Ryzen™ Master Utility": "Yes"
+                    },
+                    {
+                        "Virtualization Technology": "Yes"
+                    },
+                    {
+                        "Instruction Set": "64-bit"
+                    },
+                    {
+                        "Instruction Set Extensions": "SSE4.1/4.2, AVX2, FMA3"
+                    },
+                    {
+                        "Idle States": "Yes"
+                    },
+                    {
+                        "Enhanced AMD PowerNow!": "Yes"
+                    },
+                    {
+                        "AMD SenseMI Technology": "Yes"
+                    },
+                    {
+                        "AMD GuardMI Technology": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c2d"
+        },
+        "component_type": "CPU",
+        "component_brand": "AMD",
+        "component_model": "Ryzen 5 6600X",
+        "component_price": 270,
+        "component_discount": 8,
+        "component_image": "https://images.example.com/amd-ryzen-5-6600x.jpg",
+        "component_description": "AMD Ryzen 5 6600X Desktop Processor 6 Cores 4.2 GHz Turbo",
+        "component_unique_url": "amd-ryzen-5-6600x",
+        "component_rating": 4.6,
+        "component_reviews": 90,
+        "component_stock": 14,
+        "component_sales": 70,
+        "component_category": "Processor",
+        "component_subcategory": "AMD",
+        "component_socket": "AM4",
+        "key_features": [
+            {
+                "Model": "AMD Ryzen 5 6600X"
+            },
+            {
+                "Cores": "6"
+            },
+            {
+                "Threads": "12"
+            },
+            {
+                "Base Clock": "3.6GHz"
+            },
+            {
+                "Boost Clock": "4.2GHz"
+            },
+            {
+                "Cache": "16MB"
+            },
+            {
+                "TDP": "95W"
+            },
+            {
+                "Integrated Graphics": "No"
+            },
+            {
+                "Memory Support": "DDR4-3200MHz"
+            },
+            {
+                "Socket": "AM4"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Base Frequency": "3.6GHz"
+                    },
+                    {
+                        "Max Turbo Frequency": "4.2GHz"
+                    },
+                    {
+                        "Cache": "16MB"
+                    },
+                    {
+                        "Bus Speed": "N/A"
+                    },
+                    {
+                        "TDP": "95W"
+                    },
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-3200"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Memory Specifications",
+                "data": [
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-3200"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    },
+                    {
+                        "Max Memory Bandwidth": "50.6 GB/s"
+                    },
+                    {
+                        "ECC Memory Supported": "No"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Options",
+                "data": [
+                    {
+                        "Scalability": "1S Only"
+                    },
+                    {
+                        "PCI Express Revision": "4.0"
+                    },
+                    {
+                        "PCI Express Configurations": "N/A"
+                    },
+                    {
+                        "Max Number of PCI Express Lanes": "24"
+                    }
+                ]
+            },
+            {
+                "title": "Package Specifications",
+                "data": [
+                    {
+                        "Sockets Supported": "AM4"
+                    },
+                    {
+                        "Max CPU Configuration": "1"
+                    },
+                    {
+                        "Thermal Solution Specification": "TDP 95W Cooler included"
+                    },
+                    {
+                        "TJUNCTION": "95°C"
+                    },
+                    {
+                        "Package Size": "37.5mm x 37.5mm"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "AMD Precision Boost Technology": "Yes"
+                    },
+                    {
+                        "AMD Precision Boost Overdrive": "Yes"
+                    },
+                    {
+                        "AMD StoreMI Technology": "Yes"
+                    },
+                    {
+                        "AMD Ryzen™ Master Utility": "Yes"
+                    },
+                    {
+                        "Virtualization Technology": "Yes"
+                    },
+                    {
+                        "Instruction Set": "64-bit"
+                    },
+                    {
+                        "Instruction Set Extensions": "SSE4.1/4.2, AVX2, FMA3"
+                    },
+                    {
+                        "Idle States": "Yes"
+                    },
+                    {
+                        "Enhanced AMD PowerNow!": "Yes"
+                    },
+                    {
+                        "AMD SenseMI Technology": "Yes"
+                    },
+                    {
+                        "AMD GuardMI Technology": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c2e"
+        },
+        "component_type": "CPU",
+        "component_brand": "AMD",
+        "component_model": "Ryzen 5 5600X",
+        "component_price": 300,
+        "component_stock": 20,
+        "component_reviews": 200,
+        "component_discount": 5,
+        "component_sales": 80,
+        "component_rating": 4.7,
+        "component_image": "https://images-na.ssl-images-amazon.com/images/I/61vVVc29zCL._AC_SL1000_.jpg",
+        "component_description": "AMD Ryzen 5 5600X 6-core, 12-Thread Unlocked Desktop Processor",
+        "component_unique_url": "amd-ryzen-5-5600x",
+        "component_category": "Processor",
+        "component_subcategory": "AMD",
+        "component_socket": "AM4",
+        "key_features": [
+            {
+                "Model": "AMD Ryzen 5 5600X"
+            },
+            {
+                "Core": "6"
+            },
+            {
+                "Threads": "12"
+            },
+            {
+                "Base Clock": "3.7GHz"
+            },
+            {
+                "Boost Clock": "4.6GHz"
+            },
+            {
+                "Cache": "35MB"
+            },
+            {
+                "TDP": "65W"
+            },
+            {
+                "Integrated Graphics": "No"
+            },
+            {
+                "Memory Support": "DDR4-3200MHz"
+            },
+            {
+                "Socket": "AM4"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Base Frequency": "3.7GHz"
+                    },
+                    {
+                        "Max Turbo Frequency": "4.6GHz"
+                    },
+                    {
+                        "Cache": "35MB"
+                    },
+                    {
+                        "Bus Speed": "PCIe 4.0 x20"
+                    },
+                    {
+                        "TDP": "65W"
+                    },
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-3200"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Memory Specifications",
+                "data": [
+                    {
+                        "Max Memory Size": "128GB"
+                    },
+                    {
+                        "Memory Types": "DDR4-3200"
+                    },
+                    {
+                        "Max Number of Memory Channels": "2"
+                    },
+                    {
+                        "Max Memory Bandwidth": "51.2 GB/s"
+                    },
+                    {
+                        "ECC Memory Supported": "No"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Options",
+                "data": [
+                    {
+                        "Scalability": "1S Only"
+                    },
+                    {
+                        "PCI Express Revision": "4.0"
+                    },
+                    {
+                        "PCI Express Configurations": "1x16, 2x8, 1x8+2x4"
+                    },
+                    {
+                        "Max Number of PCI Express Lanes": "20"
+                    }
+                ]
+            },
+            {
+                "title": "Package Specifications",
+                "data": [
+                    {
+                        "Sockets Supported": "AM4"
+                    },
+                    {
+                        "Max CPU Configuration": "1"
+                    },
+                    {
+                        "Thermal Solution Specification": "Wraith Stealth"
+                    },
+                    {
+                        "TJUNCTION": "95°C"
+                    },
+                    {
+                        "Package Size": "40mm x 40mm"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "AMD StoreMI Technology": "Yes"
+                    },
+                    {
+                        "AMD Ryzen Master Utility": "Yes"
+                    },
+                    {
+                        "AMD Ryzen VR-Ready Premium": "Yes"
+                    },
+                    {
+                        "AMD Ryzen Threadripper Support": "No"
+                    },
+                    {
+                        "AMD Ryzen 5 2400G with Radeon Vega Graphics Support": "No"
+                    },
+                    {
+                        "AMD Ryzen 3 2200G with Radeon Vega Graphics Support": "No"
+                    },
+                    {
+                        "AMD Ryzen 7 2700X Gold Edition Support": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c2f"
+        },
+        "component_type": "RAM",
+        "component_brand": "TwinMOS ",
+        "component_model": "TwinMOS 4GB DDR4 2400MHz",
+        "component_price": 15,
+        "component_stock": 50,
+        "component_reviews": 400,
+        "component_discount": 2,
+        "component_sales": 170,
+        "component_rating": 4.7,
+        "component_image": "https://images.example.com/twinmos-4gb-ddr4-2400mhz.jpg",
+        "component_description": "TwinMOS 4GB DDR4 2400MHz Desktop RAM",
+        "component_unique_url": "twinmos-4gb-ddr4-2400mhz",
+        "component_category": "RAM",
+        "component_subcategory": "Desktop RAM",
+        "key_features": [
+            {
+                "Model": "TwinMOS 4GB DDR4 2400MHz"
+            },
+            {
+                "Capacity": "4GB"
+            },
+            {
+                "Speed": "2400MHz"
+            },
+            {
+                "Type": "DDR4"
+            },
+            {
+                "Warranty": "Lifetime"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Capacity": "4GB"
+                    },
+                    {
+                        "Speed": "2400MHz"
+                    },
+                    {
+                        "Type": "DDR4"
+                    },
+                    {
+                        "Voltage": "1.2V"
+                    },
+                    {
+                        "Pin": "288"
+                    },
+                    {
+                        "Warranty": "Lifetime"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Intel XMP": "Yes"
+                    },
+                    {
+                        "Intel Extreme Memory Profile (XMP)": "Yes"
+                    },
+                    {
+                        "Intel Extreme Memory Profile (XMP) 2.0": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c30"
+        },
+        "component_type": "RAM",
+        "component_brand": "Corsair",
+        "component_model": "Corsair Vengeance LPX 16GB DDR4 3200MHz",
+        "component_price": 80,
+        "component_stock": 30,
+        "component_reviews": 100,
+        "component_discount": 0,
+        "component_sales": 50,
+        "component_rating": 4.5,
+        "component_image": "https://images.example.com/corsair-vengeance-lpx-16gb-ddr4-3200mhz.jpg",
+        "component_description": "Corsair Vengeance LPX 16GB DDR4 3200MHz Desktop RAM",
+        "component_unique_url": "corsair-vengeance-lpx-16gb-ddr4-3200mhz",
+        "component_category": "RAM",
+        "component_subcategory": "Desktop RAM",
+        "key_features": [
+            {
+                "Model": "Corsair Vengeance LPX 16GB DDR4 3200MHz"
+            },
+            {
+                "Capacity": "16GB"
+            },
+            {
+                "Speed": "3200MHz"
+            },
+            {
+                "Type": "DDR4"
+            },
+            {
+                "Warranty": "Lifetime"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Capacity": "16GB"
+                    },
+                    {
+                        "Speed": "3200MHz"
+                    },
+                    {
+                        "Type": "DDR4"
+                    },
+                    {
+                        "Voltage": "1.35V"
+                    },
+                    {
+                        "Pin": "288"
+                    },
+                    {
+                        "Warranty": "Lifetime"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Intel XMP": "Yes"
+                    },
+                    {
+                        "Intel Extreme Memory Profile (XMP)": "Yes"
+                    },
+                    {
+                        "Intel Extreme Memory Profile (XMP) 2.0": "Yes"
+                    },
+                    {
+                        "Corsair iCUE Software Support": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c31"
+        },
+        "component_type": "RAM",
+        "component_brand": "Crucial",
+        "component_model": "Crucial Ballistix 16GB DDR4 3600MHz",
+        "component_price": 89,
+        "component_stock": 20,
+        "component_reviews": 200,
+        "component_discount": 5,
+        "component_sales": 80,
+        "component_rating": 4.9,
+        "component_image": "https://images.example.com/crucial-ballistix-16gb-ddr4-3600mhz.jpg",
+        "component_description": "Crucial Ballistix 16GB DDR4 3600MHz Desktop RAM",
+        "component_unique_url": "crucial-ballistix-16gb-ddr4-3600mhz",
+        "component_category": "RAM",
+        "component_subcategory": "Desktop RAM",
+        "key_features": [
+            {
+                "Model": "Crucial Ballistix 16GB DDR4 3600MHz"
+            },
+            {
+                "Capacity": "16GB"
+            },
+            {
+                "Speed": "3600MHz"
+            },
+            {
+                "Type": "DDR4"
+            },
+            {
+                "Warranty": "Limited Lifetime"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Capacity": "16GB"
+                    },
+                    {
+                        "Speed": "3600MHz"
+                    },
+                    {
+                        "Type": "DDR4"
+                    },
+                    {
+                        "Voltage": "1.35V"
+                    },
+                    {
+                        "Pin": "288"
+                    },
+                    {
+                        "Warranty": "Limited Lifetime"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Intel XMP": "Yes"
+                    },
+                    {
+                        "Intel Extreme Memory Profile (XMP)": "Yes"
+                    },
+                    {
+                        "Intel Extreme Memory Profile (XMP) 2.0": "Yes"
+                    },
+                    {
+                        "Crucial Ballistix M.O.D. Utility Support": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c32"
+        },
+        "component_type": "RAM",
+        "component_brand": "G.Skill",
+        "component_model": "G.Skill Ripjaws V 32GB DDR4 3200MHz",
+        "component_price": 149,
+        "component_stock": 10,
+        "component_reviews": 50,
+        "component_discount": 0,
+        "component_sales": 20,
+        "component_rating": 4.6,
+        "component_image": "https://images.example.com/gskill-ripjaws-v-32gb-ddr4-3200mhz.jpg",
+        "component_description": "G.Skill Ripjaws V 32GB DDR4 3200MHz Desktop RAM",
+        "component_unique_url": "gskill-ripjaws-v-32gb-ddr4-3200mhz",
+        "component_category": "RAM",
+        "component_subcategory": "Desktop RAM",
+        "key_features": [
+            {
+                "Model": "G.Skill Ripjaws V 32GB DDR4 3200MHz"
+            },
+            {
+                "Capacity": "32GB"
+            },
+            {
+                "Speed": "3200MHz"
+            },
+            {
+                "Type": "DDR4"
+            },
+            {
+                "Warranty": "Limited Lifetime"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Capacity": "32GB"
+                    },
+                    {
+                        "Speed": "3200MHz"
+                    },
+                    {
+                        "Type": "DDR4"
+                    },
+                    {
+                        "Voltage": "1.35V"
+                    },
+                    {
+                        "Pin": "288"
+                    },
+                    {
+                        "Warranty": "Limited Lifetime"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Intel XMP": "Yes"
+                    },
+                    {
+                        "Intel Extreme Memory Profile (XMP)": "Yes"
+                    },
+                    {
+                        "Intel Extreme Memory Profile (XMP) 2.0": "Yes"
+                    },
+                    {
+                        "G.Skill Trident Z Lighting Control Support": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c33"
+        },
+        "component_type": "RAM",
+        "component_brand": "Kingston",
+        "component_model": "Kingston HyperX Fury 8GB DDR4 2666MHz",
+        "component_price": 39,
+        "component_stock": 25,
+        "component_reviews": 150,
+        "component_discount": 5,
+        "component_sales": 60,
+        "component_rating": 4.4,
+        "component_image": "https://via.placeholder.com/300x200.png?text=RAM+Image",
+        "component_description": "Kingston HyperX Fury 8GB DDR4 2666MHz Desktop RAM",
+        "component_unique_url": "kingston-hyperx-fury-8gb-ddr4-2666mhz",
+        "component_category": "RAM",
+        "component_subcategory": "Desktop RAM",
+        "key_features": [
+            {
+                "Model": "Kingston HyperX Fury 8GB DDR4 2666MHz"
+            },
+            {
+                "Capacity": "8GB"
+            },
+            {
+                "Speed": "2666MHz"
+            },
+            {
+                "Type": "DDR4"
+            },
+            {
+                "Warranty": "Lifetime"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Capacity": "8GB"
+                    },
+                    {
+                        "Speed": "2666MHz"
+                    },
+                    {
+                        "Type": "DDR4"
+                    },
+                    {
+                        "Voltage": "1.2V"
+                    },
+                    {
+                        "Pin": "288"
+                    },
+                    {
+                        "Warranty": "Lifetime"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Intel XMP": "Yes"
+                    },
+                    {
+                        "Intel Extreme Memory Profile (XMP)": "Yes"
+                    },
+                    {
+                        "Intel Extreme Memory Profile (XMP) 2.0": "No"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c34"
+        },
+        "component_type": "RAM",
+        "component_brand": "Corsair",
+        "component_model": "Corsair Vengeance RGB Pro 32GB DDR4 3200MHz",
+        "component_price": 179,
+        "component_stock": 15,
+        "component_reviews": 100,
+        "component_discount": 0,
+        "component_sales": 40,
+        "component_rating": 4.8,
+        "component_image": "https://images.example.com/corsair-vengeance-rgb-pro-32gb-ddr4-3200mhz.jpg",
+        "component_description": "Corsair Vengeance RGB Pro 32GB DDR4 3200MHz Desktop RAM",
+        "component_unique_url": "corsair-vengeance-rgb-pro-32gb-ddr4-3200mhz",
+        "component_category": "RAM",
+        "component_subcategory": "Desktop RAM",
+        "key_features": [
+            {
+                "Model": "Corsair Vengeance RGB Pro 32GB DDR4 3200MHz"
+            },
+            {
+                "Capacity": "32GB"
+            },
+            {
+                "Speed": "3200MHz"
+            },
+            {
+                "Type": "DDR4"
+            },
+            {
+                "Warranty": "Limited Lifetime"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Capacity": "32GB"
+                    },
+                    {
+                        "Speed": "3200MHz"
+                    },
+                    {
+                        "Type": "DDR4"
+                    },
+                    {
+                        "Voltage": "1.35V"
+                    },
+                    {
+                        "Pin": "288"
+                    },
+                    {
+                        "Warranty": "Limited Lifetime"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Intel XMP": "Yes"
+                    },
+                    {
+                        "Intel Extreme Memory Profile (XMP)": "Yes"
+                    },
+                    {
+                        "Intel Extreme Memory Profile (XMP) 2.0": "Yes"
+                    },
+                    {
+                        "Corsair iCUE Software Support": "Yes"
+                    },
+                    {
+                        "RGB Lighting": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c35"
+        },
+        "component_type": "MOTHERBOARD",
+        "component_brand": "ASUS",
+        "component_model": "ASUS ROG Strix B550-F Gaming",
+        "component_price": 199,
+        "component_stock": 10,
+        "component_reviews": 50,
+        "component_discount": 0,
+        "component_sales": 20,
+        "component_rating": 4.7,
+        "component_image": "https://images.example.com/asus-rog-strix-b550-f-gaming.jpg",
+        "component_description": "ASUS ROG Strix B550-F Gaming ATX Motherboard",
+        "component_unique_url": "asus-rog-strix-b550-f-gaming",
+        "component_category": "Motherboard",
+        "component_subcategory": "ATX Motherboard",
+        "key_features": [
+            {
+                "Model": "ASUS ROG Strix B550-F Gaming"
+            },
+            {
+                "Chipset": "AMD B550"
+            },
+            {
+                "Form_Factor": "ATX"
+            },
+            {
+                "Socket": "AM4"
+            },
+            {
+                "Memory_Type": "DDR4"
+            },
+            {
+                "Max_Memory_Speed": "4400MHz"
+            },
+            {
+                "Audio": "ROG SupremeFX 8-Channel High Definition Audio CODEC S1220A"
+            },
+            {
+                "LAN": "Intel 2.5Gb Ethernet, ASUS LANGuard"
+            },
+            {
+                "Wireless": "Intel Wi-Fi 6 AX200, Bluetooth 5.1"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Chipset": "AMD B550"
+                    },
+                    {
+                        "Form_Factor": "ATX"
+                    },
+                    {
+                        "Socket": "AM4"
+                    },
+                    {
+                        "Memory_Type": "DDR4"
+                    },
+                    {
+                        "Max_Memory_Speed": "4400MHz"
+                    },
+                    {
+                        "Audio": "ROG SupremeFX 8-Channel High Definition Audio CODEC S1220A"
+                    },
+                    {
+                        "LAN": "Intel 2.5Gb Ethernet, ASUS LANGuard"
+                    },
+                    {
+                        "Wireless": "Intel Wi-Fi 6 AX200, Bluetooth 5.1"
+                    },
+                    {
+                        "Warranty": "3 Years"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Slots",
+                "data": [
+                    {
+                        "PCI Express 4.0 x16": "2 (x16 or dual x8)"
+                    },
+                    {
+                        "PCI Express 3.0 x16": "1 (x4 mode)"
+                    },
+                    {
+                        "PCI Express 3.0 x1": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Storage",
+                "data": [
+                    {
+                        "M.2 Slots": "2 (PCIe 4.0 x4)"
+                    },
+                    {
+                        "SATA 6Gb/s Ports": "6"
+                    }
+                ]
+            },
+            {
+                "title": "Back Panel Ports",
+                "data": [
+                    {
+                        "USB 3.2 Gen 2 Type-A": "4"
+                    },
+                    {
+                        "USB 3.2 Gen 2 Type-C": "1"
+                    },
+                    {
+                        "USB 3.2 Gen 1 Type-A": "2"
+                    },
+                    {
+                        "HDMI": "1"
+                    },
+                    {
+                        "DisplayPort": "1"
+                    },
+                    {
+                        "RJ45 LAN": "1"
+                    },
+                    {
+                        "Wi-Fi Antenna Ports": "2"
+                    },
+                    {
+                        "Audio Jacks": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c36"
+        },
+        "component_type": "MOTHERBOARD",
+        "component_brand": "Gigabyte",
+        "component_model": "Gigabyte AORUS X570 Master",
+        "component_price": 359,
+        "component_stock": 5,
+        "component_reviews": 30,
+        "component_discount": 0,
+        "component_sales": 10,
+        "component_rating": 4.9,
+        "component_image": "https://images.example.com/gigabyte-aorus-x570-master.jpg",
+        "component_description": "Gigabyte AORUS X570 Master ATX Motherboard",
+        "component_unique_url": "gigabyte-aorus-x570-master",
+        "component_category": "Motherboard",
+        "component_subcategory": "ATX Motherboard",
+        "key_features": [
+            {
+                "Model": "Gigabyte AORUS X570 Master"
+            },
+            {
+                "Chipset": "AMD X570"
+            },
+            {
+                "Form_Factor": "ATX"
+            },
+            {
+                "Socket": "AM4"
+            },
+            {
+                "Memory_Type": "DDR4"
+            },
+            {
+                "Max_Memory_Speed": "4400MHz"
+            },
+            {
+                "Audio": "Realtek ALC1220-VB codec"
+            },
+            {
+                "LAN": "Intel GbE LAN chip (10/100/1000 Mbit)"
+            },
+            {
+                "Wireless": "Intel Wi-Fi 6 802.11ax, Bluetooth 5.0"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Chipset": "AMD X570"
+                    },
+                    {
+                        "Form_Factor": "ATX"
+                    },
+                    {
+                        "Socket": "AM4"
+                    },
+                    {
+                        "Memory_Type": "DDR4"
+                    },
+                    {
+                        "Max_Memory_Speed": "4400MHz"
+                    },
+                    {
+                        "Audio": "Realtek ALC1220-VB codec"
+                    },
+                    {
+                        "LAN": "Intel GbE LAN chip (10/100/1000 Mbit)"
+                    },
+                    {
+                        "Wireless": "Intel Wi-Fi 6 802.11ax, Bluetooth 5.0"
+                    },
+                    {
+                        "Warranty": "3 Years"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Slots",
+                "data": [
+                    {
+                        "PCI Express 4.0 x16": "2 (x16 or dual x8)"
+                    },
+                    {
+                        "PCI Express 4.0 x4": "1"
+                    },
+                    {
+                        "PCI Express 3.0 x1": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Storage",
+                "data": [
+                    {
+                        "M.2 Slots": "3 (PCIe 4.0 x4)"
+                    },
+                    {
+                        "SATA 6Gb/s Ports": "6"
+                    }
+                ]
+            },
+            {
+                "title": "Back Panel Ports",
+                "data": [
+                    {
+                        "USB 3.2 Gen 2 Type-A": "6"
+                    },
+                    {
+                        "USB 3.2 Gen 2 Type-C": "1"
+                    },
+                    {
+                        "USB 3.2 Gen 1 Type-A": "4"
+                    },
+                    {
+                        "HDMI": "1"
+                    },
+                    {
+                        "DisplayPort": "1"
+                    },
+                    {
+                        "RJ45 LAN": "1"
+                    },
+                    {
+                        "Wi-Fi Antenna Ports": "2"
+                    },
+                    {
+                        "Audio Jacks": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c37"
+        },
+        "component_type": "MOTHERBOARD",
+        "component_brand": "MSI",
+        "component_model": "MSI MPG B550 Gaming Edge WiFi",
+        "component_price": 189,
+        "component_stock": 20,
+        "component_reviews": 80,
+        "component_discount": 10,
+        "component_sales": 30,
+        "component_rating": 4.5,
+        "component_image": "https://images.example.com/msi-mpg-b550-gaming-edge-wifi.jpg",
+        "component_description": "MSI MPG B550 Gaming Edge WiFi ATX Motherboard",
+        "component_unique_url": "msi-mpg-b550-gaming-edge-wifi",
+        "component_category": "Motherboard",
+        "component_subcategory": "ATX Motherboard",
+        "key_features": [
+            {
+                "Model": "MSI MPG B550 Gaming Edge WiFi"
+            },
+            {
+                "Chipset": "AMD B550"
+            },
+            {
+                "Form_Factor": "ATX"
+            },
+            {
+                "Socket": "AM4"
+            },
+            {
+                "Memory_Type": "DDR4"
+            },
+            {
+                "Max_Memory_Speed": "4400MHz"
+            },
+            {
+                "Audio": "Realtek ALC1200 Codec"
+            },
+            {
+                "LAN": "Realtek RTL8125B 2.5G LAN"
+            },
+            {
+                "Wireless": "Intel Wi-Fi 6 AX200, Bluetooth 5.1"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Chipset": "AMD B550"
+                    },
+                    {
+                        "Form_Factor": "ATX"
+                    },
+                    {
+                        "Socket": "AM4"
+                    },
+                    {
+                        "Memory_Type": "DDR4"
+                    },
+                    {
+                        "Max_Memory_Speed": "4400MHz"
+                    },
+                    {
+                        "Audio": "Realtek ALC1200 Codec"
+                    },
+                    {
+                        "LAN": "Realtek RTL8125B 2.5G LAN"
+                    },
+                    {
+                        "Wireless": "Intel Wi-Fi 6 AX200, Bluetooth 5.1"
+                    },
+                    {
+                        "Warranty": "3 Years"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Slots",
+                "data": [
+                    {
+                        "PCI Express 4.0 x16": "2 (x16 or dual x8)"
+                    },
+                    {
+                        "PCI Express 3.0 x16": "1 (x4 mode)"
+                    },
+                    {
+                        "PCI Express 3.0 x1": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Storage",
+                "data": [
+                    {
+                        "M.2 Slots": "2 (PCIe 4.0 x4)"
+                    },
+                    {
+                        "SATA 6Gb/s Ports": "6"
+                    }
+                ]
+            },
+            {
+                "title": "Back Panel Ports",
+                "data": [
+                    {
+                        "USB 3.2 Gen 2 Type-A": "4"
+                    },
+                    {
+                        "USB 3.2 Gen 1 Type-A": "2"
+                    },
+                    {
+                        "HDMI": "1"
+                    },
+                    {
+                        "DisplayPort": "1"
+                    },
+                    {
+                        "RJ45 LAN": "1"
+                    },
+                    {
+                        "Wi-Fi Antenna Ports": "2"
+                    },
+                    {
+                        "Audio Jacks": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c38"
+        },
+        "component_type": "MOTHERBOARD",
+        "component_brand": "ASRock",
+        "component_model": "ASRock B550 Phantom Gaming-ITX/ax",
+        "component_price": 199,
+        "component_stock": 15,
+        "component_reviews": 60,
+        "component_discount": 5,
+        "component_sales": 25,
+        "component_rating": 4.6,
+        "component_image": "https://images.example.com/asrock-b550-phantom-gaming-itx-ax.jpg",
+        "component_description": "ASRock B550 Phantom Gaming-ITX/ax Mini ITX Motherboard",
+        "component_unique_url": "asrock-b550-phantom-gaming-itx-ax",
+        "component_category": "Motherboard",
+        "component_subcategory": "Mini ITX Motherboard",
+        "key_features": [
+            {
+                "Model": "ASRock B550 Phantom Gaming-ITX/ax"
+            },
+            {
+                "Chipset": "AMD B550"
+            },
+            {
+                "Form_Factor": "Mini ITX"
+            },
+            {
+                "Socket": "AM4"
+            },
+            {
+                "Memory_Type": "DDR4"
+            },
+            {
+                "Max_Memory_Speed": "4733MHz"
+            },
+            {
+                "Audio": "Realtek ALC1220 Audio Codec"
+            },
+            {
+                "LAN": "Dragon RTL8125BG 2.5G LAN"
+            },
+            {
+                "Wireless": "Intel Wi-Fi 6 802.11ax, Bluetooth 5.1"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Chipset": "AMD B550"
+                    },
+                    {
+                        "Form_Factor": "Mini ITX"
+                    },
+                    {
+                        "Socket": "AM4"
+                    },
+                    {
+                        "Memory_Type": "DDR4"
+                    },
+                    {
+                        "Max_Memory_Speed": "4733MHz"
+                    },
+                    {
+                        "Audio": "Realtek ALC1220 Audio Codec"
+                    },
+                    {
+                        "LAN": "Dragon RTL8125BG 2.5G LAN"
+                    },
+                    {
+                        "Wireless": "Intel Wi-Fi 6 802.11ax, Bluetooth 5.1"
+                    },
+                    {
+                        "Warranty": "3 Years"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Slots",
+                "data": [
+                    {
+                        "PCI Express 4.0 x16": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Storage",
+                "data": [
+                    {
+                        "M.2 Slots": "2 (PCIe 4.0 x4)"
+                    },
+                    {
+                        "SATA 6Gb/s Ports": "4"
+                    }
+                ]
+            },
+            {
+                "title": "Back Panel Ports",
+                "data": [
+                    {
+                        "USB 3.2 Gen 2 Type-A": "4"
+                    },
+                    {
+                        "USB 3.2 Gen 2 Type-C": "1"
+                    },
+                    {
+                        "HDMI": "1"
+                    },
+                    {
+                        "DisplayPort": "1"
+                    },
+                    {
+                        "RJ45 LAN": "1"
+                    },
+                    {
+                        "Wi-Fi Antenna Ports": "2"
+                    },
+                    {
+                        "Audio Jacks": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c39"
+        },
+        "component_type": "MOTHERBOARD",
+        "component_brand": "ASUS",
+        "component_model": "ASUS ROG Strix B550-E Gaming",
+        "component_price": 279,
+        "component_stock": 10,
+        "component_reviews": 50,
+        "component_discount": 0,
+        "component_sales": 20,
+        "component_rating": 4.7,
+        "component_image": "https://images.example.com/asus-rog-strix-b550-e-gaming.jpg",
+        "component_description": "ASUS ROG Strix B550-E Gaming ATX Motherboard",
+        "component_unique_url": "asus-rog-strix-b550-e-gaming",
+        "component_category": "Motherboard",
+        "component_subcategory": "ATX Motherboard",
+        "key_features": [
+            {
+                "Model": "ASUS ROG Strix B550-E Gaming"
+            },
+            {
+                "Chipset": "AMD B550"
+            },
+            {
+                "Form_Factor": "ATX"
+            },
+            {
+                "Socket": "AM4"
+            },
+            {
+                "Memory_Type": "DDR4"
+            },
+            {
+                "Max_Memory_Speed": "4400MHz"
+            },
+            {
+                "Audio": "SupremeFX S1220A Codec"
+            },
+            {
+                "LAN": "Intel 2.5Gb Ethernet, ASUS LANGuard"
+            },
+            {
+                "Wireless": "Intel Wi-Fi 6 AX200, Bluetooth 5.1"
+            },
+            {
+                "Warranty": "3 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Chipset": "AMD B550"
+                    },
+                    {
+                        "Form_Factor": "ATX"
+                    },
+                    {
+                        "Socket": "AM4"
+                    },
+                    {
+                        "Memory_Type": "DDR4"
+                    },
+                    {
+                        "Max_Memory_Speed": "4400MHz"
+                    },
+                    {
+                        "Audio": "SupremeFX S1220A Codec"
+                    },
+                    {
+                        "LAN": "Intel 2.5Gb Ethernet, ASUS LANGuard"
+                    },
+                    {
+                        "Wireless": "Intel Wi-Fi 6 AX200, Bluetooth 5.1"
+                    },
+                    {
+                        "Warranty": "3 Years"
+                    }
+                ]
+            },
+            {
+                "title": "Expansion Slots",
+                "data": [
+                    {
+                        "PCI Express 4.0 x16": "2 (x16 or dual x8)"
+                    },
+                    {
+                        "PCI Express 3.0 x16": "1 (x4 mode)"
+                    },
+                    {
+                        "PCI Express 3.0 x1": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Storage",
+                "data": [
+                    {
+                        "M.2 Slots": "2 (PCIe 4.0 x4)"
+                    },
+                    {
+                        "SATA 6Gb/s Ports": "6"
+                    }
+                ]
+            },
+            {
+                "title": "Back Panel Ports",
+                "data": [
+                    {
+                        "USB 3.2 Gen 2 Type-A": "4"
+                    },
+                    {
+                        "USB 3.2 Gen 2 Type-C": "1"
+                    },
+                    {
+                        "USB 3.2 Gen 1 Type-A": "2"
+                    },
+                    {
+                        "HDMI": "1"
+                    },
+                    {
+                        "DisplayPort": "1"
+                    },
+                    {
+                        "RJ45 LAN": "1"
+                    },
+                    {
+                        "Wi-Fi Antenna Ports": "2"
+                    },
+                    {
+                        "Audio Jacks": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c3a"
+        },
+        "component_type": "STORAGE",
+        "component_brand": "Samsung",
+        "component_model": "Samsung 970 EVO Plus 2TB NVMe SSD",
+        "component_price": 399,
+        "component_stock": 10,
+        "component_reviews": 120,
+        "component_discount": 15,
+        "component_sales": 50,
+        "component_rating": 4.9,
+        "component_image": "https://images.example.com/samsung-970-evo-plus-2tb-nvme-ssd.jpg",
+        "component_description": "Samsung 970 EVO Plus 2TB NVMe SSD",
+        "component_unique_url": "samsung-970-evo-plus-2tb-nvme-ssd",
+        "component_category": "Storage",
+        "component_subcategory": "NVMe SSD",
+        "key_features": [
+            {
+                "Model": "Samsung 970 EVO Plus 2TB NVMe SSD"
+            },
+            {
+                "Capacity": "2TB"
+            },
+            {
+                "Interface": "PCIe Gen 3.0 x4, NVMe 1.3"
+            },
+            {
+                "Sequential_Read_Speed": "Up to 3,500 MB/s"
+            },
+            {
+                "Sequential_Write_Speed": "Up to 3,300 MB/s"
+            },
+            {
+                "Warranty": "5 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "Samsung 970 EVO Plus 2TB NVMe SSD"
+                    },
+                    {
+                        "Capacity": "2TB"
+                    },
+                    {
+                        "Interface": "PCIe Gen 3.0 x4, NVMe 1.3"
+                    },
+                    {
+                        "Sequential_Read_Speed": "Up to 3,500 MB/s"
+                    },
+                    {
+                        "Sequential_Write_Speed": "Up to 3,300 MB/s"
+                    },
+                    {
+                        "Warranty": "5 Years"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Samsung V-NAND Technology": "Yes"
+                    },
+                    {
+                        "Samsung Magician Software": "Yes"
+                    },
+                    {
+                        "Dynamic Thermal Guard": "Yes"
+                    },
+                    {
+                        "AES 256-bit Encryption": "Yes"
+                    },
+                    {
+                        "TCG/Opal V2.0, Encrypted Drive (IEEE1667)": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c3b"
+        },
+        "component_type": "STORAGE",
+        "component_brand": "Western Digital",
+        "component_model": "WD Blue SN550 1TB NVMe SSD",
+        "component_price": 119,
+        "component_stock": 20,
+        "component_reviews": 80,
+        "component_discount": 10,
+        "component_sales": 30,
+        "component_rating": 4.7,
+        "component_image": "https://images.example.com/wd-blue-sn550-1tb-nvme-ssd.jpg",
+        "component_description": "WD Blue SN550 1TB NVMe SSD",
+        "component_unique_url": "wd-blue-sn550-1tb-nvme-ssd",
+        "component_category": "Storage",
+        "component_subcategory": "NVMe SSD",
+        "key_features": [
+            {
+                "Model": "WD Blue SN550 1TB NVMe SSD"
+            },
+            {
+                "Capacity": "1TB"
+            },
+            {
+                "Interface": "PCIe Gen 3.0 x4, NVMe 1.3"
+            },
+            {
+                "Sequential_Read_Speed": "Up to 2,400 MB/s"
+            },
+            {
+                "Sequential_Write_Speed": "Up to 1,950 MB/s"
+            },
+            {
+                "Warranty": "5 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "WD Blue SN550 1TB NVMe SSD"
+                    },
+                    {
+                        "Capacity": "1TB"
+                    },
+                    {
+                        "Interface": "PCIe Gen 3.0 x4, NVMe 1.3"
+                    },
+                    {
+                        "Sequential_Read_Speed": "Up to 2,400 MB/s"
+                    },
+                    {
+                        "Sequential_Write_Speed": "Up to 1,950 MB/s"
+                    },
+                    {
+                        "Warranty": "5 Years"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Western Digital NVMe SSD Dashboard": "Yes"
+                    },
+                    {
+                        "Western Digital SSD Controller": "Yes"
+                    },
+                    {
+                        "Western Digital 3D NAND": "Yes"
+                    },
+                    {
+                        "NVMe Power Management Support": "Yes"
+                    },
+                    {
+                        "End-to-End Data Protection": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c3c"
+        },
+        "component_type": "STORAGE",
+        "component_brand": "Western Digital",
+        "component_model": "WD Blue SN550 1TB NVMe SSD",
+        "component_price": 119,
+        "component_stock": 20,
+        "component_reviews": 80,
+        "component_discount": 10,
+        "component_sales": 30,
+        "component_rating": 4.7,
+        "component_image": "https://images.example.com/wd-blue-sn550-1tb-nvme-ssd.jpg",
+        "component_description": "WD Blue SN550 1TB NVMe SSD",
+        "component_unique_url": "wd-blue-sn550-1tb-nvme-ssd",
+        "component_category": "Storage",
+        "component_subcategory": "NVMe SSD",
+        "key_features": [
+            {
+                "Model": "WD Blue SN550 1TB NVMe SSD"
+            },
+            {
+                "Capacity": "1TB"
+            },
+            {
+                "Interface": "PCIe Gen 3.0 x4, NVMe 1.3"
+            },
+            {
+                "Sequential_Read_Speed": "Up to 2,400 MB/s"
+            },
+            {
+                "Sequential_Write_Speed": "Up to 1,950 MB/s"
+            },
+            {
+                "Warranty": "5 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "WD Blue SN550 1TB NVMe SSD"
+                    },
+                    {
+                        "Capacity": "1TB"
+                    },
+                    {
+                        "Interface": "PCIe Gen 3.0 x4, NVMe 1.3"
+                    },
+                    {
+                        "Sequential_Read_Speed": "Up to 2,400 MB/s"
+                    },
+                    {
+                        "Sequential_Write_Speed": "Up to 1,950 MB/s"
+                    },
+                    {
+                        "Warranty": "5 Years"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Western Digital NVMe SSD Dashboard": "Yes"
+                    },
+                    {
+                        "Western Digital SSD Controller": "Yes"
+                    },
+                    {
+                        "Western Digital 3D NAND": "Yes"
+                    },
+                    {
+                        "NVMe Power Management Support": "Yes"
+                    },
+                    {
+                        "End-to-End Data Protection": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c3d"
+        },
+        "component_type": "STORAGE",
+        "component_brand": "Crucial",
+        "component_model": "Crucial MX500 2TB 3D NAND SATA SSD",
+        "component_price": 219,
+        "component_stock": 10,
+        "component_reviews": 40,
+        "component_discount": 5,
+        "component_sales": 15,
+        "component_rating": 4.8,
+        "component_image": "https://images.example.com/crucial-mx500-2tb-3d-nand-sata-ssd.jpg",
+        "component_description": "Crucial MX500 2TB 3D NAND SATA SSD",
+        "component_unique_url": "crucial-mx500-2tb-3d-nand-sata-ssd",
+        "component_category": "Storage",
+        "component_subcategory": "SATA SSD",
+        "key_features": [
+            {
+                "Model": "Crucial MX500 2TB 3D NAND SATA SSD"
+            },
+            {
+                "Capacity": "2TB"
+            },
+            {
+                "Interface": "SATA 6.0Gb/s"
+            },
+            {
+                "Sequential_Read_Speed": "Up to 560 MB/s"
+            },
+            {
+                "Sequential_Write_Speed": "Up to 510 MB/s"
+            },
+            {
+                "Warranty": "5 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "Crucial MX500 2TB 3D NAND SATA SSD"
+                    },
+                    {
+                        "Capacity": "2TB"
+                    },
+                    {
+                        "Interface": "SATA 6.0Gb/s"
+                    },
+                    {
+                        "Sequential_Read_Speed": "Up to 560 MB/s"
+                    },
+                    {
+                        "Sequential_Write_Speed": "Up to 510 MB/s"
+                    },
+                    {
+                        "Warranty": "5 Years"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Micron 3D NAND": "Yes"
+                    },
+                    {
+                        "Integrated Power Loss Immunity": "Yes"
+                    },
+                    {
+                        "AES 256-bit Hardware-based Encryption": "Yes"
+                    },
+                    {
+                        "Raid Engine and Data Path Protection": "Yes"
+                    },
+                    {
+                        "Redundant Array of Independent NAND (RAIN)": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c3e"
+        },
+        "component_type": "STORAGE",
+        "component_brand": "Kingston",
+        "component_model": "Kingston A2000 1TB NVMe SSD",
+        "component_price": 129,
+        "component_stock": 25,
+        "component_reviews": 90,
+        "component_discount": 0,
+        "component_sales": 40,
+        "component_rating": 4.7,
+        "component_image": "https://images.example.com/kingston-a2000-1tb-nvme-ssd.jpg",
+        "component_description": "Kingston A2000 1TB NVMe SSD",
+        "component_unique_url": "kingston-a2000-1tb-nvme-ssd",
+        "component_category": "Storage",
+        "component_subcategory": "NVMe SSD",
+        "key_features": [
+            {
+                "Model": "Kingston A2000 1TB NVMe SSD"
+            },
+            {
+                "Capacity": "1TB"
+            },
+            {
+                "Interface": "PCIe NVMe Gen 3.0 x4"
+            },
+            {
+                "Sequential_Read_Speed": "Up to 2,200 MB/s"
+            },
+            {
+                "Sequential_Write_Speed": "Up to 2,000 MB/s"
+            },
+            {
+                "Warranty": "5 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "Kingston A2000 1TB NVMe SSD"
+                    },
+                    {
+                        "Capacity": "1TB"
+                    },
+                    {
+                        "Interface": "PCIe NVMe Gen 3.0 x4"
+                    },
+                    {
+                        "Sequential_Read_Speed": "Up to 2,200 MB/s"
+                    },
+                    {
+                        "Sequential_Write_Speed": "Up to 2,000 MB/s"
+                    },
+                    {
+                        "Warranty": "5 Years"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "NVMe PCIe SSD Controller": "Yes"
+                    },
+                    {
+                        "3D NAND Flash": "Yes"
+                    },
+                    {
+                        "End-to-End Data Protection": "Yes"
+                    },
+                    {
+                        "Supports S.M.A.R.T. and TRIM": "Yes"
+                    },
+                    {
+                        "Kingston SSD Manager": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c3f"
+        },
+        "component_type": "STORAGE",
+        "component_brand": "Samsung",
+        "component_model": "Samsung 970 EVO Plus 2TB NVMe SSD",
+        "component_price": 399,
+        "component_stock": 5,
+        "component_reviews": 120,
+        "component_discount": 0,
+        "component_sales": 10,
+        "component_rating": 4.9,
+        "component_image": "https://images.example.com/samsung-970-evo-plus-2tb-nvme-ssd.jpg",
+        "component_description": "Samsung 970 EVO Plus 2TB NVMe SSD",
+        "component_unique_url": "samsung-970-evo-plus-2tb-nvme-ssd",
+        "component_category": "Storage",
+        "component_subcategory": "NVMe SSD",
+        "key_features": [
+            {
+                "Model": "Samsung 970 EVO Plus 2TB NVMe SSD"
+            },
+            {
+                "Capacity": "2TB"
+            },
+            {
+                "Interface": "PCIe Gen 3.0 x4, NVMe 1.3"
+            },
+            {
+                "Sequential_Read_Speed": "Up to 3,500 MB/s"
+            },
+            {
+                "Sequential_Write_Speed": "Up to 3,300 MB/s"
+            },
+            {
+                "Warranty": "5 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "Samsung 970 EVO Plus 2TB NVMe SSD"
+                    },
+                    {
+                        "Capacity": "2TB"
+                    },
+                    {
+                        "Interface": "PCIe Gen 3.0 x4, NVMe 1.3"
+                    },
+                    {
+                        "Sequential_Read_Speed": "Up to 3,500 MB/s"
+                    },
+                    {
+                        "Sequential_Write_Speed": "Up to 3,300 MB/s"
+                    },
+                    {
+                        "Warranty": "5 Years"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Samsung V-NAND 3-bit MLC": "Yes"
+                    },
+                    {
+                        "Samsung Phoenix Controller": "Yes"
+                    },
+                    {
+                        "Dynamic Thermal Guard": "Yes"
+                    },
+                    {
+                        "Samsung Magician Software": "Yes"
+                    },
+                    {
+                        "AES 256-bit Encryption": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c40"
+        },
+        "component_type": "STORAGE",
+        "component_brand": "Intel",
+        "component_model": "Intel Optane 905P 1.5TB PCIe SSD",
+        "component_price": 1999,
+        "component_stock": 2,
+        "component_reviews": 10,
+        "component_discount": 0,
+        "component_sales": 1,
+        "component_rating": 4.5,
+        "component_image": "https://images.example.com/intel-optane-905p-1.5tb-pcie-ssd.jpg",
+        "component_description": "Intel Optane 905P 1.5TB PCIe SSD",
+        "component_unique_url": "intel-optane-905p-1.5tb-pcie-ssd",
+        "component_category": "Storage",
+        "component_subcategory": "PCIe SSD",
+        "key_features": [
+            {
+                "Model": "Intel Optane 905P 1.5TB PCIe SSD"
+            },
+            {
+                "Capacity": "1.5TB"
+            },
+            {
+                "Interface": "PCIe 3.0 x4"
+            },
+            {
+                "Sequential_Read_Speed": "Up to 2600 MB/s"
+            },
+            {
+                "Sequential_Write_Speed": "Up to 2200 MB/s"
+            },
+            {
+                "Warranty": "5 Years"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "Intel Optane 905P 1.5TB PCIe SSD"
+                    },
+                    {
+                        "Capacity": "1.5TB"
+                    },
+                    {
+                        "Interface": "PCIe 3.0 x4"
+                    },
+                    {
+                        "Sequential_Read_Speed": "Up to 2600 MB/s"
+                    },
+                    {
+                        "Sequential_Write_Speed": "Up to 2200 MB/s"
+                    },
+                    {
+                        "Warranty": "5 Years"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Technologies",
+                "data": [
+                    {
+                        "Intel Optane Memory Media": "Yes"
+                    },
+                    {
+                        "Intel Memory and Storage Controller": "Yes"
+                    },
+                    {
+                        "Intel Rapid Storage Technology": "Yes"
+                    },
+                    {
+                        "End-to-End Data Protection": "Yes"
+                    },
+                    {
+                        "AES 256-bit Encryption": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c41"
+        },
+        "component_type": "MONITOR",
+        "component_brand": "LG",
+        "component_model": "LG 34WN80C-B 34-Inch Curved UltraWide QHD IPS Monitor",
+        "component_price": 549,
+        "component_stock": 15,
+        "component_reviews": 60,
+        "component_discount": 0,
+        "component_sales": 20,
+        "component_rating": 4.6,
+        "component_image": "https://images.example.com/lg-34wn80c-b-34-inch-curved-ultrawide-qhd-ips-monitor.jpg",
+        "component_description": "LG 34WN80C-B 34-Inch Curved UltraWide QHD IPS Monitor",
+        "component_unique_url": "lg-34wn80c-b-34-inch-curved-ultrawide-qhd-ips-monitor",
+        "component_category": "Monitor",
+        "component_subcategory": "UltraWide Monitor",
+        "key_features": [
+            {
+                "Model": "LG 34WN80C-B 34-Inch Curved UltraWide QHD IPS Monitor"
+            },
+            {
+                "Resolution": "3440 x 1440 at 60Hz"
+            },
+            {
+                "Panel Type": "In-Plane Switching (IPS)"
+            },
+            {
+                "Response Time": "5ms"
+            },
+            {
+                "Brightness": "300 cd/m²"
+            },
+            {
+                "Contrast Ratio": "1000:1"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "LG 34WN80C-B 34-Inch Curved UltraWide QHD IPS Monitor"
+                    },
+                    {
+                        "Resolution": "3440 x 1440 at 60Hz"
+                    },
+                    {
+                        "Panel Type": "In-Plane Switching (IPS)"
+                    },
+                    {
+                        "Response Time": "5ms"
+                    },
+                    {
+                        "Brightness": "300 cd/m²"
+                    },
+                    {
+                        "Contrast Ratio": "1000:1"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Features",
+                "data": [
+                    {
+                        "HDR 10": "Yes"
+                    },
+                    {
+                        "sRGB 99% Color Gamut": "Yes"
+                    },
+                    {
+                        "On-Screen Control with Screen Split": "Yes"
+                    },
+                    {
+                        "Height and Tilt Adjustable Stand": "Yes"
+                    },
+                    {
+                        "Flicker Safe and Reader Mode": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c42"
+        },
+        "component_type": "MONITOR",
+        "component_brand": "Dell",
+        "component_model": "Dell UltraSharp U2718Q 27-Inch 4K IPS Monitor",
+        "component_price": 699,
+        "component_stock": 10,
+        "component_reviews": 45,
+        "component_discount": 0,
+        "component_sales": 15,
+        "component_rating": 4.5,
+        "component_image": "https://images.example.com/dell-ultrasharp-u2718q-27-inch-4k-ips-monitor.jpg",
+        "component_description": "Dell UltraSharp U2718Q 27-Inch 4K IPS Monitor",
+        "component_unique_url": "dell-ultrasharp-u2718q-27-inch-4k-ips-monitor",
+        "component_category": "Monitor",
+        "component_subcategory": "4K Monitor",
+        "key_features": [
+            {
+                "Model": "Dell UltraSharp U2718Q 27-Inch 4K IPS Monitor"
+            },
+            {
+                "Resolution": "3840 x 2160 at 60Hz"
+            },
+            {
+                "Panel Type": "In-Plane Switching (IPS)"
+            },
+            {
+                "Response Time": "5ms"
+            },
+            {
+                "Brightness": "350 cd/m²"
+            },
+            {
+                "Contrast Ratio": "1300:1"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "Dell UltraSharp U2718Q 27-Inch 4K IPS Monitor"
+                    },
+                    {
+                        "Resolution": "3840 x 2160 at 60Hz"
+                    },
+                    {
+                        "Panel Type": "In-Plane Switching (IPS)"
+                    },
+                    {
+                        "Response Time": "5ms"
+                    },
+                    {
+                        "Brightness": "350 cd/m²"
+                    },
+                    {
+                        "Contrast Ratio": "1300:1"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Features",
+                "data": [
+                    {
+                        "HDR 10": "No"
+                    },
+                    {
+                        "sRGB 99% Color Gamut": "Yes"
+                    },
+                    {
+                        "On-Screen Control with Screen Split": "Yes"
+                    },
+                    {
+                        "Height and Tilt Adjustable Stand": "Yes"
+                    },
+                    {
+                        "Flicker Safe and Reader Mode": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c43"
+        },
+        "component_type": "MONITOR",
+        "component_brand": "Asus",
+        "component_model": "Asus TUF Gaming VG27AQ 27-Inch HDR IPS Monitor",
+        "component_price": 499,
+        "component_stock": 20,
+        "component_reviews": 75,
+        "component_discount": 0,
+        "component_sales": 25,
+        "component_rating": 4.7,
+        "component_image": "https://images.example.com/asus-tuf-gaming-vg27aq-27-inch-hdr-ips-monitor.jpg",
+        "component_description": "Asus TUF Gaming VG27AQ 27-Inch HDR IPS Monitor",
+        "component_unique_url": "asus-tuf-gaming-vg27aq-27-inch-hdr-ips-monitor",
+        "component_category": "Monitor",
+        "component_subcategory": "Gaming Monitor",
+        "key_features": [
+            {
+                "Model": "Asus TUF Gaming VG27AQ 27-Inch HDR IPS Monitor"
+            },
+            {
+                "Resolution": "2560 x 1440 at 165Hz"
+            },
+            {
+                "Panel Type": "In-Plane Switching (IPS)"
+            },
+            {
+                "Response Time": "1ms"
+            },
+            {
+                "Brightness": "350 cd/m²"
+            },
+            {
+                "Contrast Ratio": "1000:1"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "Asus TUF Gaming VG27AQ 27-Inch HDR IPS Monitor"
+                    },
+                    {
+                        "Resolution": "2560 x 1440 at 165Hz"
+                    },
+                    {
+                        "Panel Type": "In-Plane Switching (IPS)"
+                    },
+                    {
+                        "Response Time": "1ms"
+                    },
+                    {
+                        "Brightness": "350 cd/m²"
+                    },
+                    {
+                        "Contrast Ratio": "1000:1"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Features",
+                "data": [
+                    {
+                        "HDR 10": "Yes"
+                    },
+                    {
+                        "sRGB 99% Color Gamut": "Yes"
+                    },
+                    {
+                        "G-Sync Compatible": "Yes"
+                    },
+                    {
+                        "Extreme Low Motion Blur Sync": "Yes"
+                    },
+                    {
+                        "GamePlus and GameVisual": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c44"
+        },
+        "component_type": "MONITOR",
+        "component_brand": "LG",
+        "component_model": "LG 27GL83A-B 27-Inch Ultragear QHD IPS Gaming Monitor",
+        "component_price": 379,
+        "component_stock": 15,
+        "component_reviews": 50,
+        "component_discount": 0,
+        "component_sales": 10,
+        "component_rating": 4.6,
+        "component_image": "https://images.example.com/lg-27gl83a-b-27-inch-ultragear-qhd-ips-gaming-monitor.jpg",
+        "component_description": "LG 27GL83A-B 27-Inch Ultragear QHD IPS Gaming Monitor",
+        "component_unique_url": "lg-27gl83a-b-27-inch-ultragear-qhd-ips-gaming-monitor",
+        "component_category": "Monitor",
+        "component_subcategory": "Gaming Monitor",
+        "key_features": [
+            {
+                "Model": "LG 27GL83A-B 27-Inch Ultragear QHD IPS Gaming Monitor"
+            },
+            {
+                "Resolution": "2560 x 1440 at 144Hz"
+            },
+            {
+                "Panel Type": "In-Plane Switching (IPS)"
+            },
+            {
+                "Response Time": "1ms"
+            },
+            {
+                "Brightness": "350 cd/m²"
+            },
+            {
+                "Contrast Ratio": "1000:1"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "LG 27GL83A-B 27-Inch Ultragear QHD IPS Gaming Monitor"
+                    },
+                    {
+                        "Resolution": "2560 x 1440 at 144Hz"
+                    },
+                    {
+                        "Panel Type": "In-Plane Switching (IPS)"
+                    },
+                    {
+                        "Response Time": "1ms"
+                    },
+                    {
+                        "Brightness": "350 cd/m²"
+                    },
+                    {
+                        "Contrast Ratio": "1000:1"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Features",
+                "data": [
+                    {
+                        "HDR 10": "No"
+                    },
+                    {
+                        "sRGB 99% Color Gamut": "Yes"
+                    },
+                    {
+                        "G-Sync Compatible": "Yes"
+                    },
+                    {
+                        "Black Stabilizer": "Yes"
+                    },
+                    {
+                        "Crosshair": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c45"
+        },
+        "component_type": "POWER SUPPLY UNIT",
+        "component_brand": "Corsair",
+        "component_model": "Corsair RM850x 850 Watt 80+ Gold Certified Fully Modular Power Supply",
+        "component_price": 139.99,
+        "component_stock": 10,
+        "component_reviews": 25,
+        "component_discount": 0,
+        "component_sales": 5,
+        "component_rating": 4.8,
+        "component_image": "https://images.example.com/corsair-rm850x-850-watt-80-plus-gold-certified-fully-modular-power-supply.jpg",
+        "component_description": "Corsair RM850x 850 Watt 80+ Gold Certified Fully Modular Power Supply",
+        "component_unique_url": "corsair-rm850x-850-watt-80-plus-gold-certified-fully-modular-power-supply",
+        "component_category": "Power Supply Unit",
+        "component_subcategory": "ATX Power Supply",
+        "key_features": [
+            {
+                "Model": "Corsair RM850x 850 Watt 80+ Gold Certified Fully Modular Power Supply"
+            },
+            {
+                "Wattage": "850W"
+            },
+            {
+                "80 Plus Certification": "Gold"
+            },
+            {
+                "Modular": "Yes"
+            },
+            {
+                "Efficiency": "90%"
+            },
+            {
+                "Fan Size": "135mm"
+            },
+            {
+                "Dimensions": "6.3 x 5.9 x 3.4 inches"
+            },
+            {
+                "Weight": "3.97 pounds"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "Corsair RM850x 850 Watt 80+ Gold Certified Fully Modular Power Supply"
+                    },
+                    {
+                        "Wattage": "850W"
+                    },
+                    {
+                        "80 Plus Certification": "Gold"
+                    },
+                    {
+                        "Modular": "Yes"
+                    },
+                    {
+                        "Efficiency": "90%"
+                    },
+                    {
+                        "Fan Size": "135mm"
+                    },
+                    {
+                        "Dimensions": "6.3 x 5.9 x 3.4 inches"
+                    },
+                    {
+                        "Weight": "3.97 pounds"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Features",
+                "data": [
+                    {
+                        "Zero RPM Fan Mode": "Yes"
+                    },
+                    {
+                        "Fully Modular Cables": "Yes"
+                    },
+                    {
+                        "Over-Voltage Protection": "Yes"
+                    },
+                    {
+                        "Over-Current Protection": "Yes"
+                    },
+                    {
+                        "Short Circuit Protection": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c46"
+        },
+        "component_type": "POWER SUPPLY UNIT",
+        "component_brand": "EVGA",
+        "component_model": "EVGA SuperNOVA 750 G5 750 Watt 80+ Gold Fully Modular Power Supply",
+        "component_price": 129.99,
+        "component_stock": 12,
+        "component_reviews": 35,
+        "component_discount": 0,
+        "component_sales": 8,
+        "component_rating": 4.7,
+        "component_image": "https://images.example.com/evga-supernova-750-g5-750-watt-80-plus-gold-fully-modular-power-supply.jpg",
+        "component_description": "EVGA SuperNOVA 750 G5 750 Watt 80+ Gold Fully Modular Power Supply",
+        "component_unique_url": "evga-supernova-750-g5-750-watt-80-plus-gold-fully-modular-power-supply",
+        "component_category": "Power Supply Unit",
+        "component_subcategory": "ATX Power Supply",
+        "key_features": [
+            {
+                "Model": "EVGA SuperNOVA 750 G5 750 Watt 80+ Gold Fully Modular Power Supply"
+            },
+            {
+                "Wattage": "750W"
+            },
+            {
+                "80 Plus Certification": "Gold"
+            },
+            {
+                "Modular": "Yes"
+            },
+            {
+                "Efficiency": "90%"
+            },
+            {
+                "Fan Size": "135mm"
+            },
+            {
+                "Dimensions": "5.91 x 5.91 x 3.35 inches"
+            },
+            {
+                "Weight": "6.2 pounds"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "EVGA SuperNOVA 750 G5 750 Watt 80+ Gold Fully Modular Power Supply"
+                    },
+                    {
+                        "Wattage": "750W"
+                    },
+                    {
+                        "80 Plus Certification": "Gold"
+                    },
+                    {
+                        "Modular": "Yes"
+                    },
+                    {
+                        "Efficiency": "90%"
+                    },
+                    {
+                        "Fan Size": "135mm"
+                    },
+                    {
+                        "Dimensions": "5.91 x 5.91 x 3.35 inches"
+                    },
+                    {
+                        "Weight": "6.2 pounds"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Features",
+                "data": [
+                    {
+                        "Zero RPM Fan Mode": "Yes"
+                    },
+                    {
+                        "Fully Modular Cables": "Yes"
+                    },
+                    {
+                        "Over-Voltage Protection": "Yes"
+                    },
+                    {
+                        "Over-Current Protection": "Yes"
+                    },
+                    {
+                        "Short Circuit Protection": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c47"
+        },
+        "component_type": "POWER SUPPLY UNIT",
+        "component_brand": "Seasonic",
+        "component_model": "Seasonic Focus GX-750 750 Watt 80+ Gold Fully Modular Power Supply",
+        "component_price": 129.99,
+        "component_stock": 10,
+        "component_reviews": 20,
+        "component_discount": 0,
+        "component_sales": 5,
+        "component_rating": 4.6,
+        "component_image": "https://images.example.com/seasonic-focus-gx-750-750-watt-80-plus-gold-fully-modular-power-supply.jpg",
+        "component_description": "Seasonic Focus GX-750 750 Watt 80+ Gold Fully Modular Power Supply",
+        "component_unique_url": "seasonic-focus-gx-750-750-watt-80-plus-gold-fully-modular-power-supply",
+        "component_category": "Power Supply Unit",
+        "component_subcategory": "ATX Power Supply",
+        "key_features": [
+            {
+                "Model": "Seasonic Focus GX-750 750 Watt 80+ Gold Fully Modular Power Supply"
+            },
+            {
+                "Wattage": "750W"
+            },
+            {
+                "80 Plus Certification": "Gold"
+            },
+            {
+                "Modular": "Yes"
+            },
+            {
+                "Efficiency": "90%"
+            },
+            {
+                "Fan Size": "120mm"
+            },
+            {
+                "Dimensions": "5.9 x 5.5 x 3.4 inches"
+            },
+            {
+                "Weight": "4.19 pounds"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "Seasonic Focus GX-750 750 Watt 80+ Gold Fully Modular Power Supply"
+                    },
+                    {
+                        "Wattage": "750W"
+                    },
+                    {
+                        "80 Plus Certification": "Gold"
+                    },
+                    {
+                        "Modular": "Yes"
+                    },
+                    {
+                        "Efficiency": "90%"
+                    },
+                    {
+                        "Fan Size": "120mm"
+                    },
+                    {
+                        "Dimensions": "5.9 x 5.5 x 3.4 inches"
+                    },
+                    {
+                        "Weight": "4.19 pounds"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Features",
+                "data": [
+                    {
+                        "Hybrid Silent Fan Control": "Yes"
+                    },
+                    {
+                        "Fully Modular Cables": "Yes"
+                    },
+                    {
+                        "Over-Voltage Protection": "Yes"
+                    },
+                    {
+                        "Over-Current Protection": "Yes"
+                    },
+                    {
+                        "Short Circuit Protection": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c48"
+        },
+        "component_type": "POWER SUPPLY UNIT",
+        "component_brand": "Thermaltake",
+        "component_model": "Thermaltake Toughpower GF1 750 Watt 80+ Gold Fully Modular Power Supply",
+        "component_price": 129.99,
+        "component_stock": 8,
+        "component_reviews": 15,
+        "component_discount": 0,
+        "component_sales": 3,
+        "component_rating": 4.5,
+        "component_image": "https://images.example.com/thermaltake-toughpower-gf1-750-watt-80-plus-gold-fully-modular-power-supply.jpg",
+        "component_description": "Thermaltake Toughpower GF1 750 Watt 80+ Gold Fully Modular Power Supply",
+        "component_unique_url": "thermaltake-toughpower-gf1-750-watt-80-plus-gold-fully-modular-power-supply",
+        "component_category": "Power Supply Unit",
+        "component_subcategory": "ATX Power Supply",
+        "key_features": [
+            {
+                "Model": "Thermaltake Toughpower GF1 750 Watt 80+ Gold Fully Modular Power Supply"
+            },
+            {
+                "Wattage": "750W"
+            },
+            {
+                "80 Plus Certification": "Gold"
+            },
+            {
+                "Modular": "Yes"
+            },
+            {
+                "Efficiency": "90%"
+            },
+            {
+                "Fan Size": "140mm"
+            },
+            {
+                "Dimensions": "6.3 x 5.9 x 3.4 inches"
+            },
+            {
+                "Weight": "4.19 pounds"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "Thermaltake Toughpower GF1 750 Watt 80+ Gold Fully Modular Power Supply"
+                    },
+                    {
+                        "Wattage": "750W"
+                    },
+                    {
+                        "80 Plus Certification": "Gold"
+                    },
+                    {
+                        "Modular": "Yes"
+                    },
+                    {
+                        "Efficiency": "90%"
+                    },
+                    {
+                        "Fan Size": "140mm"
+                    },
+                    {
+                        "Dimensions": "6.3 x 5.9 x 3.4 inches"
+                    },
+                    {
+                        "Weight": "4.19 pounds"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Features",
+                "data": [
+                    {
+                        "Smart Zero Fan": "Yes"
+                    },
+                    {
+                        "Fully Modular Cables": "Yes"
+                    },
+                    {
+                        "Over-Voltage Protection": "Yes"
+                    },
+                    {
+                        "Over-Current Protection": "Yes"
+                    },
+                    {
+                        "Short Circuit Protection": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c49"
+        },
+        "component_type": "POWER SUPPLY UNIT",
+        "component_brand": "Corsair",
+        "component_model": "Corsair RM750x 750 Watt 80+ Gold Fully Modular Power Supply",
+        "component_price": 139.99,
+        "component_stock": 5,
+        "component_reviews": 10,
+        "component_discount": 0,
+        "component_sales": 2,
+        "component_rating": 4.8,
+        "component_image": "https://images.example.com/corsair-rm750x-750-watt-80-plus-gold-fully-modular-power-supply.jpg",
+        "component_description": "Corsair RM750x 750 Watt 80+ Gold Fully Modular Power Supply",
+        "component_unique_url": "corsair-rm750x-750-watt-80-plus-gold-fully-modular-power-supply",
+        "component_category": "Power Supply Unit",
+        "component_subcategory": "ATX Power Supply",
+        "key_features": [
+            {
+                "Model": "Corsair RM750x 750 Watt 80+ Gold Fully Modular Power Supply"
+            },
+            {
+                "Wattage": "750W"
+            },
+            {
+                "80 Plus Certification": "Gold"
+            },
+            {
+                "Modular": "Yes"
+            },
+            {
+                "Efficiency": "90%"
+            },
+            {
+                "Fan Size": "135mm"
+            },
+            {
+                "Dimensions": "6.3 x 5.9 x 3.4 inches"
+            },
+            {
+                "Weight": "3.75 pounds"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "Corsair RM750x 750 Watt 80+ Gold Fully Modular Power Supply"
+                    },
+                    {
+                        "Wattage": "750W"
+                    },
+                    {
+                        "80 Plus Certification": "Gold"
+                    },
+                    {
+                        "Modular": "Yes"
+                    },
+                    {
+                        "Efficiency": "90%"
+                    },
+                    {
+                        "Fan Size": "135mm"
+                    },
+                    {
+                        "Dimensions": "6.3 x 5.9 x 3.4 inches"
+                    },
+                    {
+                        "Weight": "3.75 pounds"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Features",
+                "data": [
+                    {
+                        "Zero RPM Fan Mode": "Yes"
+                    },
+                    {
+                        "Fully Modular Cables": "Yes"
+                    },
+                    {
+                        "Over-Voltage Protection": "Yes"
+                    },
+                    {
+                        "Over-Current Protection": "Yes"
+                    },
+                    {
+                        "Short Circuit Protection": "Yes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65136065f2a2fca3b9a28c4a"
+        },
+        "component_type": "POWER SUPPLY UNIT",
+        "component_brand": "EVGA",
+        "component_model": "EVGA SuperNOVA 750 G5 750 Watt 80+ Gold Fully Modular Power Supply",
+        "component_price": 139.99,
+        "component_stock": 7,
+        "component_reviews": 12,
+        "component_discount": 0,
+        "component_sales": 4,
+        "component_rating": 4.7,
+        "component_image": "https://images.example.com/evga-supernova-750-g5-750-watt-80-plus-gold-fully-modular-power-supply.jpg",
+        "component_description": "EVGA SuperNOVA 750 G5 750 Watt 80+ Gold Fully Modular Power Supply",
+        "component_unique_url": "evga-supernova-750-g5-750-watt-80-plus-gold-fully-modular-power-supply",
+        "component_category": "Power Supply Unit",
+        "component_subcategory": "ATX Power Supply",
+        "key_features": [
+            {
+                "Model": "EVGA SuperNOVA 750 G5 750 Watt 80+ Gold Fully Modular Power Supply"
+            },
+            {
+                "Wattage": "750W"
+            },
+            {
+                "80 Plus Certification": "Gold"
+            },
+            {
+                "Modular": "Yes"
+            },
+            {
+                "Efficiency": "90%"
+            },
+            {
+                "Fan Size": "135mm"
+            },
+            {
+                "Dimensions": "5.91 x 5.91 x 3.35 inches"
+            },
+            {
+                "Weight": "4.5 pounds"
+            }
+        ],
+        "specifications": [
+            {
+                "title": "Basic Information",
+                "data": [
+                    {
+                        "Model": "EVGA SuperNOVA 750 G5 750 Watt 80+ Gold Fully Modular Power Supply"
+                    },
+                    {
+                        "Wattage": "750W"
+                    },
+                    {
+                        "80 Plus Certification": "Gold"
+                    },
+                    {
+                        "Modular": "Yes"
+                    },
+                    {
+                        "Efficiency": "90%"
+                    },
+                    {
+                        "Fan Size": "135mm"
+                    },
+                    {
+                        "Dimensions": "5.91 x 5.91 x 3.35 inches"
+                    },
+                    {
+                        "Weight": "4.5 pounds"
+                    }
+                ]
+            },
+            {
+                "title": "Advanced Features",
+                "data": [
+                    {
+                        "Zero RPM Fan Mode": "Yes"
+                    },
+                    {
+                        "Fully Modular Cables": "Yes"
+                    },
+                    {
+                        "Over-Voltage Protection": "Yes"
+                    },
+                    {
+                        "Over-Current Protection": "Yes"
+                    },
+                    {
+                        "Short Circuit Protection": "Yes"
+                    }
+                ]
+            }
+        ]
+    }
+]

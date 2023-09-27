@@ -1,0 +1,1 @@
+const products = ["CPU", "RAM", "MONITOR", "MOTHERBOARD", "STORAGE", "POWER SUPPLY UNIT"];
