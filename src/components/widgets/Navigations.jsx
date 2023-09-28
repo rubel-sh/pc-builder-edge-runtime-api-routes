@@ -6,6 +6,7 @@ import { useState } from "react";
 import { NAVIGATIONLINKS } from "@/lib/constants";
 import { Button } from "../ui/button";
 import Components from "../CustomUI/Components";
+import Link from "next/link";
 
 const Navigations = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,7 +25,9 @@ const Navigations = () => {
                         {/* DARK MODE */}
                         <DarkModeMenu />
                         {/* PC BUILDER BUTTON*/}
-                        <Button variant="outline">PC Builder</Button>
+                        <Link href={"builder"}>
+                            <Button variant="outline">PC Builder</Button>
+                        </Link>
                     </div>
 
                     {/* HamburgerMenu */}

@@ -19,13 +19,19 @@ const ProductCard = ({ product }) => {
         key_features,
     } = product;
     return (
-        <Card className="">
-            <CardHeader>
-                <Image src={component_image} width={300} height={300} alt={component_model} />
-                <Separator />
-                <p className="text-lg font-medium">{component_model}</p>
+        <Card className="w-[min(calc(20vw,300px))] overflow-hidden relative">
+            <CardHeader className="p-0 ">
+                <Image
+                    src={component_image}
+                    width={300}
+                    height={300}
+                    alt={component_model}
+                    className="w-full object-cover"
+                />
             </CardHeader>
-            <CardContent>
+            <CardContent className="">
+                <Separator />
+                <p className="text-lg font-medium mt-3">{component_model}</p>
                 <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
                     {key_features &&
                         key_features.map((feature, index) => (
@@ -34,11 +40,9 @@ const ProductCard = ({ product }) => {
                             </li>
                         ))}
                 </ul>
-                <Separator />
+                <Separator className="mb-8" />
+                <Button className="w-[90%] absolute bottom-2 inset-x-0 mx-auto">Get Full Information</Button>
             </CardContent>
-            <CardFooter>
-                <Button className="w-full">Mark all as read</Button>
-            </CardFooter>
         </Card>
     );
 };

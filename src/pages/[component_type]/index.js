@@ -1,17 +1,15 @@
 import Container from "@/components/CustomUI/Container";
 import ProductCard from "@/components/widgets/ProductCard";
 import { NAVIGATIONLINKS } from "@/lib/constants";
-import { useRouter } from "next/router";
-import React from "react";
 
 const ComponentDetails = ({ componentData }) => {
     if (componentData.data.length === 0) return null;
 
     return (
         <Container>
-            <div className="flex flex-wrap flex-grow gap-4 ">
+            <div className="grid grid-cols-min-300 gap-4 ">
                 {componentData.data.map((component) => (
-                    <ProductCard product={component} key={component.id} />
+                    <ProductCard product={component} key={component._id} />
                 ))}
             </div>
         </Container>
@@ -20,12 +18,12 @@ const ComponentDetails = ({ componentData }) => {
 
 export async function getStaticProps(context) {
     const componentType = context.params.component_type.toUpperCase();
-    console.log(componentType);
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/${componentType}`);
     const data = await res.json();
 
     return {
         props: { componentData: data },
+        revalidate: 120, // In seconds
     };
 }
 
