@@ -1,43 +1,13 @@
 import Container from "../CustomUI/Container";
 import Logo from "../CustomUI/Logo";
 import { DarkModeMenu } from "./DarkModeMenu";
-import { Button } from "../ui/button";
-import Components from "../CustomUI/Components";
 import { BiMenuAltRight } from "react-icons/bi";
 import { useState } from "react";
+import { NAVIGATIONLINKS } from "@/lib/constants";
+import { Button } from "../ui/button";
+import Components from "../CustomUI/Components";
 
 const Navigations = () => {
-    const components = [
-        {
-            title: "CPU / Processor",
-            link: "/components/cpu-processor",
-        },
-        {
-            title: "Motherboard",
-            link: "/components/motherboard",
-        },
-        {
-            title: "RAM",
-            link: "/components/ram",
-        },
-        {
-            title: "Power Supply Unit",
-            link: "/components/power-supply-unit",
-        },
-        {
-            title: "Storage Device",
-            link: "/components/storage-device",
-        },
-        {
-            title: "Monitor",
-            link: "/components/monitor",
-        },
-        {
-            title: "Others",
-            link: "/components/others",
-        },
-    ];
-
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
         <div className="py-3">
@@ -47,7 +17,7 @@ const Navigations = () => {
                         <Logo />
                         {/* Navigation Links */}
                         <div className="max-md:hidden">
-                            <Components components={components} />
+                            <Components components={NAVIGATIONLINKS} />
                         </div>
                     </div>
                     <div className="flex items-center gap-x-4 max-md:hidden">
@@ -67,12 +37,12 @@ const Navigations = () => {
 
                         {isMenuOpen && (
                             <div className="absolute top-full right-0 space-y-2  min-w-[280px] flex flex-col items-end">
-                                <Components components={components} />
+                                <Components components={NAVIGATIONLINKS} />
                                 <div className="flex items-center gap-x-4">
                                     {/* DARK MODE */}
                                     <DarkModeMenu />
                                     {/* PC BUILDER BUTTON*/}
-                                    <Button variant="outline">PC Builder</Button>
+                                    <Button>PC Builder</Button>
                                 </div>
                             </div>
                         )}

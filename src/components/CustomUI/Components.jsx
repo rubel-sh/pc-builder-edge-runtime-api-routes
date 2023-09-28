@@ -1,3 +1,5 @@
+import { cn } from "@/lib/utils";
+import Link from "next/link";
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -5,10 +7,7 @@ import {
     NavigationMenuLink,
     NavigationMenuList,
     NavigationMenuTrigger,
-    navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu";
-import { cn } from "@/lib/utils";
-import Link from "next/link";
+} from "../ui/navigation-menu";
 
 const Components = ({ components }) => {
     return (
