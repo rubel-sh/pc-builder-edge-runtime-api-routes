@@ -3,7 +3,7 @@ import Navigations from "../widgets/Navigations";
 
 const PrimaryLayout = ({ children }) => {
     return (
-        <div>
+        <div className="pb-10">
             <Navigations />
             {children}
         </div>

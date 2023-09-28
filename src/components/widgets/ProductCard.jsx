@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Separator } from "../ui/separator";
 import { Button } from "../ui/button";
 import { Check } from "lucide-react";
+import Link from "next/link";
 
 const ProductCard = ({ product }) => {
     const {
@@ -15,11 +16,12 @@ const ProductCard = ({ product }) => {
         component_price,
         component_discount,
         component_rating,
+        component_unique_url,
         component_image,
         key_features,
     } = product;
     return (
-        <Card className="w-[min(calc(20vw,300px))] overflow-hidden relative">
+        <Card className="overflow-hidden relative">
             <CardHeader className="p-0 ">
                 <Image
                     src={component_image}
@@ -41,7 +43,9 @@ const ProductCard = ({ product }) => {
                         ))}
                 </ul>
                 <Separator className="mb-8" />
-                <Button className="w-[90%] absolute bottom-2 inset-x-0 mx-auto">Get Full Information</Button>
+                <Link href={"/" + component_unique_url}>
+                    <Button className="w-[90%] absolute bottom-2 inset-x-0 mx-auto">Get Full Information</Button>
+                </Link>
             </CardContent>
         </Card>
     );
