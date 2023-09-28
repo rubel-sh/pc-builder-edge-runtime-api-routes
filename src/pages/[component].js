@@ -44,43 +44,43 @@ const ComponentFullInfo = ({ componentData }) => {
                 <div className=" self-center justify-self-center ">
                     <h1 className="text-4xl font-bold mb-4">{component_description}</h1>
                     {/* Total Rating, Sales, Reviews */}
-                    <div className="flex gap-4 mb-4 flex-wrap hidden">
-                        <Tag className="max-w-max bg-slate-800/10 border-slate-700">
+                    {/* <div className="flex gap-4 mb-4 flex-wrap">
+                        <Tag className="max-w-max ">
                             <span className="font-base">Rating:</span> {component_rating}
                         </Tag>
-                        <Tag className="max-w-max bg-slate-800/10 border-slate-700">
+                        <Tag className="max-w-max ">
                             <span className="font-base">Sales:</span> {component_sales}
                         </Tag>
-                        <Tag className="max-w-max bg-slate-800/10 border-slate-700">
+                        <Tag className="max-w-max ">
                             <span className="font-base">Reviews:</span> {component_reviews}
                         </Tag>
-                    </div>
+                    </div> */}
 
                     {/* Prices*/}
                     <div className="flex gap-4 mb-4 flex-wrap">
-                        <Tag className="max-w-max bg-emerald-600/10 border-emerald-600">
-                            Price: {bdPrice(component_price)} Tk
+                        <Tag className="max-w-max bg-emerald-700/10 border-emerald-700">
+                            Price: {bdPrice(component_price) - bdPrice(component_discount)} Tk
                         </Tag>
-                        <Tag className="max-w-max bg-emerald-600/10 border-emerald-600">
-                            Discount: {component_discount ?? "No Discount"}
+                        <Tag className="max-w-max bg-emerald-700/10 border-emerald-700">
+                            Regular Price: {bdPrice(component_price) ?? "No Discount"}
                         </Tag>
-                        <Tag className="max-w-max bg-emerald-600/10 border-emerald-600">Stock: {component_stock}</Tag>
-                        <Tag className="max-w-max bg-slate-800/10 border-slate-700">
+                        <Tag className="max-w-max bg-emerald-700/10 border-emerald-700">Stock: {component_stock}</Tag>
+                        <Tag className="max-w-max bg-emerald-700/10 border-emerald-700">
                             <span className="font-base">Rating:</span> {component_rating}
                         </Tag>
-                        <Tag className="max-w-max bg-slate-800/10 border-slate-700">
+                        <Tag className="max-w-max bg-emerald-700/10 border-emerald-700">
                             <span className="font-base">Sales:</span> {component_sales}
                         </Tag>
-                        <Tag className="max-w-max bg-slate-800/10 border-slate-700">
+                        <Tag className="max-w-max bg-emerald-700/10 border-emerald-700">
                             <span className="font-base">Reviews:</span> {component_reviews}
                         </Tag>
                     </div>
 
                     {/* Category and Subcategory */}
-                    <div className="flex gap-4 mb-4 flex-wrap hidden">
+                    {/* <div className="flex gap-4 mb-4 flex-wrap ">
                         <Tag className="max-w-max">Category: {component_category}</Tag>
                         <Tag className="max-w-max">Sub Category: {component_subcategory}</Tag>
-                    </div>
+                    </div> */}
 
                     <h2 className="text-2xl font-semibold mb-4">Brand: {component_brand}</h2>
                     <div className="flex flex-col">
