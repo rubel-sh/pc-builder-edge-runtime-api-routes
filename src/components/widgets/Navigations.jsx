@@ -25,7 +25,7 @@ const Navigations = () => {
                         {/* DARK MODE */}
                         <DarkModeMenu />
                         {/* PC BUILDER BUTTON*/}
-                        <Link href={"builder"}>
+                        <Link href={"/builder"}>
                             <Button variant="outline">PC Builder</Button>
                         </Link>
                     </div>

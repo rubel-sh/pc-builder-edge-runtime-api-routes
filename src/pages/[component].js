@@ -82,10 +82,10 @@ const ComponentFullInfo = ({ componentData }) => {
                         <Tag className="max-w-max">Sub Category: {component_subcategory}</Tag>
                     </div> */}
 
-                    <h2 className="text-2xl font-semibold mb-4">Brand: {component_brand}</h2>
+                    <h2 className="text-2xl font-semibold mb-4 ">Brand: {component_brand}</h2>
                     <div className="flex flex-col">
                         <h4 className="text-lg font-bold ">Key Features</h4>
-                        <ul className="my-6 ml-6 list-disc">
+                        <ul className="my-2 ml-6 list-disc">
                             {key_features.map((feature) => (
                                 <li key={feature} className="text-sm font-medium">
                                     {Object.keys(feature)[0]}: {Object.values(feature)[0]}

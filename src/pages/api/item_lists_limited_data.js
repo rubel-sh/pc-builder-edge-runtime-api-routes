@@ -15,8 +15,10 @@ export default async function handler(req, res) {
                 component_brand: 1,
                 component_price: 1,
                 component_discount: 1,
+                component_unique_url: 1,
                 component_image: 1,
                 component_rating: 1,
+                key_features: 1,
             })
             .toArray();
         return sendResponse(res, 200, true, all_cpus);
