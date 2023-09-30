@@ -17,6 +17,7 @@ import PcBuilderComponentItem from "@/components/CustomUI/PcBuilderComponentItem
 import { useCallback } from "react";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
+import { bdPrice } from "@/lib/utils";
 
 const PcBuilder = () => {
     const chooseOptions = useMemo(
@@ -75,6 +76,13 @@ const PcBuilder = () => {
         return isAllChoosen;
     }, [chooseOptions, choosenComponents]);
 
+    const totalComponentPrice = Object.values(choosenComponents)?.reduce((acc, component) => {
+        const price = bdPrice(component?.component_price) || 0;
+        const discount = bdPrice(component?.component_discount) || 0;
+        const grandPrice = price - discount;
+        return acc + grandPrice;
+    }, 0);
+
     return (
         <Container className="mt-5 md:mt-8">
             {/* <h1 className="text-xl font-bold mb-4">PC Builder - Build Your Own Computer - Meta Tech</h1> */}
@@ -91,13 +99,14 @@ const PcBuilder = () => {
                         );
                     })}
                 </div>
+
                 {isAllRequiredComponentsChoosen() && (
                     <>
                         <Separator className="mt-5" />
                         <div className="mt-5 flex justify-between items-center">
                             <p className="text-lg font-semibold">Total Price</p>
                             <div className="flex items-center gap-x-4">
-                                <p className="text-lg font-semibold">12000</p>
+                                <p className="text-lg font-semibold">{totalComponentPrice}</p>
                                 <Button onClick={() => window.print()}>Print</Button>
                             </div>
                         </div>
