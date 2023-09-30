@@ -2,7 +2,7 @@ import Container from "@/components/CustomUI/Container";
 import PcBuilderComponentSection from "@/components/CustomUI/PcBuilderComponentSection";
 import { useMemo } from "react";
 import { Card } from "@/components/ui/card";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 // ICONS
 import { PiCpu } from "react-icons/pi";

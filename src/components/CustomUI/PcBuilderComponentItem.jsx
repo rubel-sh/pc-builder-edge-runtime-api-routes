@@ -59,7 +59,7 @@ const PcBuilderComponentItem = ({ itemData, choosenComponent }) => {
                                 </span>
                             </div>
                         </div>
-                        <div className="flex items-center gap-x-2">
+                        <div className="flex flex-col items-center gap-y-1 -translate-y-5">
                             <div className="text-sm font-semibold">
                                 {bdPrice(choosenComponent?.component_price) -
                                     bdPrice(choosenComponent?.component_discount)}{" "}
