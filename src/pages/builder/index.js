@@ -1,5 +1,6 @@
 import Container from "@/components/CustomUI/Container";
 import PcBuilderComponentSection from "@/components/CustomUI/PcBuilderComponentSection";
+import { useMemo } from "react";
 import { Card } from "@/components/ui/card";
 import { useSelector } from "react-redux";
 
@@ -13,51 +14,66 @@ import { FiMonitor } from "react-icons/fi";
 
 import COMPONENT_TYPE from "@/lib/constants";
 import PcBuilderComponentItem from "@/components/CustomUI/PcBuilderComponentItem";
+import { useCallback } from "react";
+import { Separator } from "@/components/ui/separator";
+import { Button } from "@/components/ui/button";
 
 const PcBuilder = () => {
-    const counter = useSelector((state) => state.counter.value);
-    const chooseOptions = [
-        {
-            name: "Processor",
-            componentType: COMPONENT_TYPE.CPU,
-            isRequired: true,
-            icon: <PiCpu />,
-        },
-        {
-            name: "Motherboard",
-            componentType: COMPONENT_TYPE.MOTHERBOARD,
-            isRequired: true,
-            icon: <BsMotherboard />,
-        },
-        {
-            name: "Memory",
-            componentType: COMPONENT_TYPE.RAM,
-            isRequired: true,
-            icon: <LiaMemorySolid />,
-        },
-        {
-            name: "Storage",
-            componentType: COMPONENT_TYPE.STORAGE,
-            isRequired: true,
-            icon: <TfiHarddrives />,
-        },
-        {
-            name: "Power Supply",
-            componentType: COMPONENT_TYPE.POWER_SUPPLY_UNIT,
-            isRequired: true,
-            icon: <SlPower />,
-        },
-        {
-            name: "Monitor",
-            componentType: COMPONENT_TYPE.MONITOR,
-            isRequired: true,
-            icon: <FiMonitor />,
-        },
-    ];
+    const chooseOptions = useMemo(
+        () => [
+            {
+                name: "Processor",
+                componentType: COMPONENT_TYPE.CPU,
+                isRequired: true,
+                icon: <PiCpu />,
+            },
+            {
+                name: "Motherboard",
+                componentType: COMPONENT_TYPE.MOTHERBOARD,
+                isRequired: true,
+                icon: <BsMotherboard />,
+            },
+            {
+                name: "Memory",
+                componentType: COMPONENT_TYPE.RAM,
+                isRequired: true,
+                icon: <LiaMemorySolid />,
+            },
+            {
+                name: "Storage",
+                componentType: COMPONENT_TYPE.STORAGE,
+                isRequired: true,
+                icon: <TfiHarddrives />,
+            },
+            {
+                name: "Power Supply",
+                componentType: COMPONENT_TYPE.POWER_SUPPLY_UNIT,
+                isRequired: true,
+                icon: <SlPower />,
+            },
+            {
+                name: "Monitor",
+                componentType: COMPONENT_TYPE.MONITOR,
+                isRequired: true,
+                icon: <FiMonitor />,
+            },
+        ],
+        []
+    );
 
     // Getting Choosen Components from Redux
     const choosenComponents = useSelector((state) => state.pcBuilder);
-    console.log(choosenComponents.CPU);
+
+    // Checking If All Required Components are choosen with useCallback
+    const isAllRequiredComponentsChoosen = useCallback(() => {
+        let isAllChoosen = true;
+        chooseOptions.forEach((option) => {
+            if (option.isRequired && !choosenComponents[option.componentType]) {
+                isAllChoosen = false;
+            }
+        });
+        return isAllChoosen;
+    }, [chooseOptions, choosenComponents]);
 
     return (
         <Container className="mt-5 md:mt-8">
@@ -75,6 +91,18 @@ const PcBuilder = () => {
                         );
                     })}
                 </div>
+                {isAllRequiredComponentsChoosen() && (
+                    <>
+                        <Separator className="mt-5" />
+                        <div className="mt-5 flex justify-between items-center">
+                            <p className="text-lg font-semibold">Total Price</p>
+                            <div className="flex items-center gap-x-4">
+                                <p className="text-lg font-semibold">12000</p>
+                                <Button onClick={() => window.print()}>Print</Button>
+                            </div>
+                        </div>
+                    </>
+                )}
             </Card>
         </Container>
     );

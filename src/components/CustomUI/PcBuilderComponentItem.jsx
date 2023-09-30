@@ -3,15 +3,28 @@ import { Button } from "../ui/button";
 import { Skeleton } from "../ui/skeleton";
 import Link from "next/link";
 import { bdPrice } from "@/lib/utils";
+import Image from "next/image";
 
 const PcBuilderComponentItem = ({ itemData, choosenComponent }) => {
     const { name, componentType, isRequired, icon } = itemData;
     return (
         <div className="flex">
             {/* LOGO */}
-            <div className="flex flex-col p-3 bg-primary/10 text-primary/60 rounded-sm">
-                <div className="text-4xl">{icon}</div>
-            </div>
+            {choosenComponent ? (
+                <div className="flex flex-col rounded-sm max-h-max">
+                    <Image
+                        src={choosenComponent?.component_image}
+                        width={80}
+                        height={80}
+                        alt="product image"
+                        className="object-contain"
+                    />
+                </div>
+            ) : (
+                <div className="flex flex-col p-3 bg-primary/10 text-primary/60 rounded-sm max-h-max">
+                    <div className="text-4xl">{icon}</div>
+                </div>
+            )}
 
             <div className="ml-4 w-full mr-4">
                 {/* Item Name (isRequired) */}
@@ -32,11 +45,13 @@ const PcBuilderComponentItem = ({ itemData, choosenComponent }) => {
 
                 {/* Selected Items */}
                 {choosenComponent && (
-                    <div className="flex justify-between ">
+                    <div className="flex justify-between gap-x-4">
                         <div className="text-sm mt-2">
                             <div className="flex items-center gap-x-2">
                                 <Link href={`/${choosenComponent?.component_unique_url}`}>
-                                    <div className="text-sm font-semibold">{choosenComponent?.component_model}</div>
+                                    <div className="text-sm font-semibold max-w-sm">
+                                        {choosenComponent?.component_model}
+                                    </div>
                                 </Link>
 
                                 <span className="text-xs bg-muted rounded-sm px-2 hidden md:inline">

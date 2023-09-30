@@ -1,6 +1,5 @@
 import BuilderComponentListItem from "@/components/CustomUI/BuilderComponentListItem";
 import Container from "@/components/CustomUI/Container";
-import { Card } from "@/components/ui/card";
 
 const SelectBuilderComponent = ({ choosenCategoryData }) => {
     if (!choosenCategoryData.success) return null;
