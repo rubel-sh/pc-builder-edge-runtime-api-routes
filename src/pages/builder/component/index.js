@@ -1,5 +1,6 @@
 import BuilderComponentListItem from "@/components/CustomUI/BuilderComponentListItem";
 import Container from "@/components/CustomUI/Container";
+import { getCurrentEnvironment } from "@/lib/utils";
 
 const SelectBuilderComponent = ({ choosenCategoryData }) => {
     if (!choosenCategoryData.success) return null;

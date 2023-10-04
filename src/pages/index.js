@@ -46,14 +46,14 @@ export default function Home({ featuredProductsData }) {
                 componentType: COMPONENT_TYPE.STORAGE,
                 isRequired: true,
                 icon: <TfiHarddrives />,
-                link: "power_supply_unit",
+                link: "storage",
             },
             {
                 name: "Power Supply",
                 componentType: COMPONENT_TYPE.POWER_SUPPLY_UNIT,
                 isRequired: true,
                 icon: <SlPower />,
-                link: "storage",
+                link: "power_supply_unit",
             },
             {
                 name: "Monitor",
