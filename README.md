@@ -31,8 +31,8 @@ bun dev
 
 ## API Routes
 
-GET /allproducts
-GET /STORAGE
-GET /item_lists_limited_data?component=POWER_SUPPLY_UNIT
-GET /featured_products?limit=5
-GET /product?unique_name=intel-core-i3-10100f
+-   GET /allproducts
+-   GET /STORAGE
+-   GET /item_lists_limited_data?component=POWER_SUPPLY_UNIT
+-   GET /featured_products?limit=5
+-   GET /product?unique_name=intel-core-i3-10100f
