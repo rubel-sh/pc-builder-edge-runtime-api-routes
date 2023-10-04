@@ -12,6 +12,8 @@ import { FiMonitor } from "react-icons/fi";
 import { useMemo } from "react";
 import COMPONENT_TYPE from "@/lib/constants";
 import Link from "next/link";
+import Head from "next/head";
+import { getCurrentEnvironment } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -64,40 +66,46 @@ export default function Home({ featuredProductsData }) {
         []
     );
     return (
-        <Container>
-            {/* Featured Categories */}
+        <>
+            <Head>
+                <title>PC BUILDER Next13</title>
+            </Head>
+            <Container>
+                {/* Featured Categories */}
 
-            <div className="bg-secondary px-4 py-1 my-4 rounded-md">
-                <h3 className="text-xl font-semibold my-2 ">Featured Categories</h3>
-            </div>
-            <div className="grid grid-cols-min-200 gap-4 ">
-                {chooseOptions.slice(0, 6).map((option) => (
-                    <Link href={`/components/${option.link}`} key={option.componentType}>
-                        <div
-                            key={option.name}
-                            className="bg-accent hover:scale-95 hover:text-primary active:scale-105 transition-transform text-accent-foreground grid place-content-center gap-y-2 p-5 md:p-10 rounded-md "
-                        >
-                            <div className="text-6xl mx-auto">{option.icon}</div>
-                            <h3 className="text-center text-lg font-semibold">{option.name}</h3>
-                        </div>
-                    </Link>
-                ))}
-            </div>
-            {/* Featured Products*/}
-            <div className="bg-secondary px-4 py-1 my-4 rounded-md">
-                <h3 className="text-xl font-semibold my-2 ">Featured Products</h3>
-            </div>
-            <div className="grid grid-cols-min-200 gap-4 mb-10">
-                {featuredProductsData.data.map((component) => (
-                    <FeaturedProductCard featuredProduct={component} key={component._id} />
-                ))}
-            </div>
-        </Container>
+                <div className="bg-secondary px-4 py-1 my-4 rounded-md">
+                    <h3 className="text-xl font-semibold my-2 ">Featured Categories</h3>
+                </div>
+                <div className="grid grid-cols-min-200 gap-4 ">
+                    {chooseOptions.slice(0, 6).map((option) => (
+                        <Link href={`/components/${option.link}`} key={option.componentType}>
+                            <div
+                                key={option.name}
+                                className="bg-accent hover:scale-95 hover:text-primary active:scale-105 transition-transform text-accent-foreground grid place-content-center gap-y-2 p-5 md:p-10 rounded-md "
+                            >
+                                <div className="text-6xl mx-auto">{option.icon}</div>
+                                <h3 className="text-center text-lg font-semibold">{option.name}</h3>
+                            </div>
+                        </Link>
+                    ))}
+                </div>
+                {/* Featured Products*/}
+                <div className="bg-secondary px-4 py-1 my-4 rounded-md">
+                    <h3 className="text-xl font-semibold my-2 ">Featured Products</h3>
+                </div>
+                <div className="grid grid-cols-min-200 gap-4 mb-10">
+                    {featuredProductsData.data.map((component) => (
+                        <FeaturedProductCard featuredProduct={component} key={component._id} />
+                    ))}
+                </div>
+            </Container>
+        </>
     );
 }
 
 export async function getStaticProps() {
-    const featuredProducts = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/featured_products?limit=12`);
+    const baseUrl = getCurrentEnvironment();
+    const featuredProducts = await fetch(`${baseUrl}/api/featured_products?limit=12`);
     const featuredProductsData = await featuredProducts.json();
     return {
         props: { featuredProductsData },

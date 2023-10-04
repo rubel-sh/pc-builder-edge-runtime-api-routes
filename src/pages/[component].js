@@ -1,7 +1,7 @@
 import Container from "@/components/CustomUI/Container";
 import { Card } from "@/components/ui/card";
 import Tag from "@/components/widgets/Tag";
-import { bdPrice } from "@/lib/utils";
+import { bdPrice, getCurrentEnvironment } from "@/lib/utils";
 import Image from "next/image";
 
 const ComponentFullInfo = ({ componentData }) => {
@@ -121,8 +121,9 @@ const ComponentFullInfo = ({ componentData }) => {
 };
 
 export async function getStaticProps(context) {
+    const baseUrl = getCurrentEnvironment();
     const item_unique_name = context.params.component;
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/product?unique_name=${item_unique_name}`);
+    const res = await fetch(`${baseUrl}/api/product?unique_name=${item_unique_name}`);
     const data = await res.json();
     return {
         props: { componentData: data },
@@ -131,7 +132,8 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths() {
-    const allProductsRes = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/all_products`);
+    const baseUrl = getCurrentEnvironment();
+    const allProductsRes = await fetch(`${baseUrl}/api/all_products`);
     const allProducts = await allProductsRes.json();
 
     const paths = allProducts.data.map((product) => {

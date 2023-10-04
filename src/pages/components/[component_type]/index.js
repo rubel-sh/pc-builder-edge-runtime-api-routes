@@ -1,6 +1,7 @@
 import Container from "@/components/CustomUI/Container";
 import ProductCard from "@/components/widgets/ProductCard";
 import { NAVIGATIONLINKS } from "@/lib/constants";
+import { getCurrentEnvironment } from "@/lib/utils";
 
 const ComponentDetails = ({ componentData }) => {
     if (componentData.data.length === 0) return null;
@@ -17,8 +18,9 @@ const ComponentDetails = ({ componentData }) => {
 };
 
 export async function getStaticProps(context) {
+    const baseUrl = getCurrentEnvironment();
     const componentType = context.params.component_type.toUpperCase();
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/${componentType}`);
+    const res = await fetch(`${baseUrl}/api/${componentType}`);
     const data = await res.json();
 
     return {

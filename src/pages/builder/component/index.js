@@ -16,10 +16,9 @@ const SelectBuilderComponent = ({ choosenCategoryData }) => {
 };
 
 export async function getServerSideProps(context) {
+    const baseUrl = getCurrentEnvironment();
     const choosenCategory = context.query.item;
-    const res = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/api/item_lists_limited_data?component=${choosenCategory}`
-    );
+    const res = await fetch(`${baseUrl}/api/item_lists_limited_data?component=${choosenCategory}`);
     const data = await res.json();
 
     return {

@@ -9,9 +9,9 @@ import {
     NavigationMenuTrigger,
 } from "../ui/navigation-menu";
 
-const Components = ({ components }) => {
+const Components = ({ components, className }) => {
     return (
-        <NavigationMenu>
+        <NavigationMenu className={className}>
             <NavigationMenuList>
                 <NavigationMenuItem>
                     <NavigationMenuTrigger size={"lg"}>Categories </NavigationMenuTrigger>
